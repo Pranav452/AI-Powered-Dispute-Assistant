@@ -465,12 +465,10 @@ docs/_build/
 !yarn.lock
 
 # Specific data files mentioned in requirements
-!dump/classified_disputes.csv
-!dump/resolutions.csv
+
 
 # Keep essential data files for the project
-!backend/data/1.csv
-!backend/data/2.csv
+
 
 # Configuration templates
 !config/config.template.py
