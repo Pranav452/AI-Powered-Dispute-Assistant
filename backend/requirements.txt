@@ -1,0 +1,14 @@
+pandas
+numpy
+scikit-learn
+sentence-transformers
+openai
+tqdm
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+dotenv
+langchain
+langchain_experimental
+langchain_openai

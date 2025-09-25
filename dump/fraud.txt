@@ -1,0 +1,2024 @@
+
+dispute_id	description	category
+D001	I got charged twice for the same UPI payment	DUPLICATE_CHARGE
+D002	My NEFT failed but money is not refunded	FAILED_TRANSACTION
+D003	Transaction shows failed but money was debited	FAILED_TRANSACTION
+D004	I did not make this payment. This is fraud.	FRAUD
+D005	Still waiting for refund after canceled transaction	REFUND_PENDING
+D006	Duplicate charge for the same merchant within minutes	DUPLICATE_CHARGE
+D007	UPI transfer failed but account is debited	FAILED_TRANSACTION
+D008	NEFT credited to wrong beneficiary per my statement	OTHERS
+D009	Chargeback requested as I don't recognize this card txn	FRAUD
+D010	Refund pending for a week after failed POS swipe	REFUND_PENDING
+D011	Got two UPI debit messages for one QR scan	DUPLICATE_CHARGE
+D012	Payment stuck in pending, not sure if merchant got it	FAILED_TRANSACTION
+D013	EMI card was charged twice this month	DUPLICATE_CHARGE
+D014	My NEFT is showing processed but beneficiary says not received	OTHERS
+D015	Got debited after payment failed on gateway	FAILED_TRANSACTION
+D016	This transaction looks suspicious. I didn't authorize it	FRAUD
+D017	Refund for canceled order not received	REFUND_PENDING
+D018	Duplicate UPI transfer to same VPA, minutes apart	DUPLICATE_CHARGE
+D019	NEFT failed but amount not reversed yet	FAILED_TRANSACTION
+D020	Card charged twice at petrol pump	DUPLICATE_CHARGE
+D021	I did not authorize this transaction. It's a clear case of fraud.	FRAUD
+D022	My card was stolen, and this fraudulent charge appeared moments later.	FRAUD
+D023	I don't recognize this merchant at all. Please reverse this fraudulent charge.	FRAUD
+D024	This is a fraudulent transaction. I was in possession of my card at all times.	FRAUD
+D025	My account was hacked, and this payment was made without my knowledge.	FRAUD
+D026	Unauthorized international transaction on my card while I'm in the country.	FRAUD
+D027	I lost my wallet yesterday, and now I see this charge. It is not mine.	FRAUD
+D028	This transaction was made after I reported my card as lost and it was blocked.	FRAUD
+D029	I have never purchased anything from this website, this is a fraudulent payment.	FRAUD
+D030	This is a fraudulent charge. I want to block my card immediately.	FRAUD
+D031	Someone used my card details online without my permission.	FRAUD
+D032	I received an SMS alert for a transaction I did not make.	FRAUD
+D033	This payment was made in a different country while I am at home.	FRAUD
+D034	I suspect my card has been cloned. This is not my transaction.	FRAUD
+D035	I have been a victim of a phishing attack. Please investigate this charge.	FRAUD
+D036	A fraudulent subscription has been set up using my card without my consent.	FRAUD
+D037	I never shared my OTP with anyone, yet this fraudulent transaction went through.	FRAUD
+D038	This looks like a case of identity theft. I did not make this payment.	FRAUD
+D039	The merchant listed is completely unknown to me. This has to be fraud.	FRAUD
+D040	I was not even in that city on the date of the transaction. Clear fraud.	FRAUD
+D041	My card details were compromised from a data breach, leading to this transaction.	FRAUD
+D042	This is a suspicious transaction from a website I've never visited.	FRAUD
+D043	I did not receive any product or service for this payment. It is fraud.	FRAUD
+D044	This is a clear fraud, please initiate an immediate chargeback.	FRAUD
+D045	My card was used at an ATM 500 miles away from my current location.	FRAUD
+D046	I have reason to believe my card information was skimmed at a gas station.	FRAUD
+D047	This charge occurred at 3 AM while I was sleeping.	FRAUD
+D048	A large sum was transferred from my account without my consent.	FRAUD
+D049	This is an unauthorized debit from a company I have never dealt with.	FRAUD
+D050	My new card, which I haven't even activated yet, has been used.	FRAUD
+D051	I got a call from a scammer, and then this transaction happened.	FRAUD
+D052	This is a fraudulent withdrawal from my account.	FRAUD
+D053	The transaction time and location do not match my known whereabouts.	FRAUD
+D054	This appears to be a fraudulent online gaming purchase I didn't make.	FRAUD
+D055	I would like to dispute this charge as I believe it's 100% fraud.	FRAUD
+D056	My card was used for a recurring payment I never signed up for.	FRAUD
+D057	This is a fraudulent UPI transaction. My phone was stolen an hour ago.	FRAUD
+D058	I have been scammed by a fake website that looked like the real one.	FRAUD
+D059	This transaction was declined but a charge still appeared. It feels like fraud.	FRAUD
+D060	I didn't authorize this payment to a foreign account.	FRAUD
+D061	An unauthorized charge from a merchant I blocked last month.	FRAUD
+D062	I clicked on a suspicious link and now I see this charge. I've been hacked.	FRAUD
+D063	This payment was for a 'free trial' that I never agreed to. Total scam.	FRAUD
+D064	I am reporting this transaction as fraudulent. Please take necessary action.	FRAUD
+D065	My card was used for a cash advance I did not perform.	FRAUD
+D066	I have video proof I was elsewhere when this transaction occurred.	FRAUD
+D067	This transaction is from a company that has been reported for scamming.	FRAUD
+D068	My phone was compromised and this UPI payment was made remotely.	FRAUD
+D069	The amount is for a service I explicitly canceled. Taking money is fraud.	FRAUD
+D070	This transaction has all the signs of being fraudulent.	FRAUD
+D071	Received a fake OTP request and then this debit happened.	FRAUD
+D072	I've never heard of this 'online store'. It's a fraudulent charge.	FRAUD
+D073	My card was used for a large purchase immediately after a small test transaction.	FRAUD
+D074	I am reporting this unauthorized debit. I did not make this purchase.	FRAUD
+D075	This charge is from a different timezone and country. Not mine.	FRAUD
+D076	The merchant name looks suspicious and I can't find them online.	FRAUD
+D077	This is a fraudulent renewal for a subscription I cancelled years ago.	FRAUD
+D078	My physical card is with me, but it was somehow used at a POS terminal.	FRAUD
+D079	This is not my purchase. Someone has my card details.	FRAUD
+D080	A payment was made from my account that I certainly did not approve.	FRAUD
+D081	Reporting a fraudulent debit. I was not online at the time of this transaction.	FRAUD
+D082	This charge from an unknown entity needs to be investigated as fraud.	FRAUD
+D083	My account details were stolen and used for this transaction.	FRAUD
+D084	This is an obvious fraud. The charge is from a city I have never been to.	FRAUD
+D085	An unauthorized payment was made while my phone was switched off.	FRAUD
+D086	I want to report this transaction as fraudulent and get a new card issued.	FRAUD
+D087	I believe I was a victim of a SIM swap fraud, leading to this UPI transaction.	FRAUD
+D088	This company is a scam. I did not authorize this payment.	FRAUD
+D089	My card was charged for an order I never placed.	FRAUD
+D090	This is a fraudulent transaction; the delivery address is not mine.	FRAUD
+D091	I don't recall making this purchase on this date. Can you check?	FRAUD
+D092	This charge seems familiar, but the amount is much higher than I remember.	FRAUD
+D093	My spouse says they didn't make this payment either. We don't know what it's for.	FRAUD
+D094	I thought I canceled this subscription. Why am I still being charged?	FRAUD
+D095	I'm not sure what this charge is for. The merchant name is very generic.	FRAUD
+D096	Can you provide more details on this transaction? I don't recognize it.	FRAUD
+D097	I bought something from this site before, but I haven't used it in months.	FRAUD
+D098	The amount is small, but I am certain I did not authorize this.	FRAUD
+D099	This might be a mistake. I don't remember spending this much at this store.	FRAUD
+D100	Is this a recurring payment? I only signed up for a one-time service.	FRAUD
+D101	This purchase was for a digital good that was never delivered. Feels like a scam.	FRAUD
+D102	I was browsing this website but I never completed the checkout process.	FRAUD
+D103	My child might have used my card without permission for an in-game purchase.	FRAUD
+D104	The company charged me for a premium service I never subscribed to.	FRAUD
+D105	I'm looking at my statement and this particular charge doesn't add up.	FRAUD
+D106	This merchant has a very bad reputation online, and I regret making a purchase.	FRAUD
+D107	I received an item that is completely different from the description. It's a fake.	FRAUD
+D108	The transaction details are vague. Can you tell me what 'SERV*DigitalOcean' is?	FRAUD
+D109	I'm disputing this charge. I tried contacting the merchant with no response.	FRAUD
+D110	This charge is from a company I've never heard of, for a service I don't use.	FRAUD
+D111	The website I bought from is now offline. I think I've been scammed.	FRAUD
+D112	This looks like an automatic renewal I was not notified about and did not want.	FRAUD
+D113	I'm concerned about this transaction. It doesn't seem legitimate.	FRAUD
+D114	I made one purchase, but it looks like I was signed up for a monthly fee.	FRAUD
+D115	There is a transaction on my card from a vendor I do not know.	FRAUD
+D116	I'm pretty sure I cancelled my free trial before the billing date.	FRAUD
+D117	The location for this POS transaction is incorrect. I was at a different branch.	FRAUD
+D118	I tried to pay, it said 'failed', but my card was charged anyway. Now the site is gone.	FRAUD
+D119	I have a charge here that I am questioning the validity of.	FRAUD
+D120	This payment was for a product I returned, but the merchant won't refund me.	FRAUD
+D121	This charge is for a significantly different amount than what was on the receipt.	FRAUD
+D122	I was promised a refund that never came, now I believe the whole thing was a scam.	FRAUD
+D123	The item I bought was a counterfeit. The merchant is unresponsive.	FRAUD
+D124	I suspect an employee at a restaurant copied my card details.	FRAUD
+D125	This transaction does not correspond to any of my recent activities.	FRAUD
+D126	A payment was taken from my account for an order that was immediately cancelled.	FRAUD
+D127	I am seeing a debit that I do not believe I am responsible for.	FRAUD
+D128	This seems to be a hidden charge from a booking I made online.	FRAUD
+D129	The merchant is not providing the service as advertised and refuses a refund.	FRAUD
+D130	I don't remember entering my card details on this website.	FRAUD
+D131	This transaction is highly unusual for my account. Please look into it.	FRAUD
+D132	The amount was supposed to be in local currency, but it was charged in USD.	FRAUD
+D133	This charge is from a vendor whose name I don't recognize.	FRAUD
+D134	I'm disputing this fee. It was not disclosed to me at the time of purchase.	FRAUD
+D135	I believe this merchant is engaging in deceptive billing practices.	FRAUD
+D136	I have a strange charge from 'Miscellaneous Goods' that I can't place.	FRAUD
+D137	My card was charged, but I never received a confirmation email or product.	FRAUD
+D138	The final price was much higher than what was shown in the cart.	FRAUD
+D139	This debit happened overnight from a merchant I've never used.	FRAUD
+D140	I'm concerned my account information may have been compromised.	FRAUD
+D141	I can't find any record of this transaction in my email or order history.	FRAUD
+D142	I was overcharged for this service. The agreed price was lower.	FRAUD
+D143	This transaction is suspicious because I haven't used this card in over a year.	FRAUD
+D144	I'm questioning a debit on my account statement.	FRAUD
+D145	A company I blocked has charged me again using a different name.	FRAUD
+D146	The product quality was so poor it's practically a scam. I want a chargeback.	FRAUD
+D147	I have an unexpected charge from a digital service I don't use.	FRAUD
+D148	This merchant's website seemed legitimate, but they never shipped my item.	FRAUD
+D149	This fee is not part of my agreement with the service provider.	FRAUD
+D150	The charge is for a different product than the one I added to my cart.	FRAUD
+D151	I'm not familiar with this transaction and would like to dispute it.	FRAUD
+D152	This charge seems to be related to a pop-up I clicked on by mistake.	FRAUD
+D153	I've been charged for a membership I didn't sign up for.	FRAUD
+D154	The service was terrible and not as promised. The company feels like a fraud.	FRAUD
+D155	This charge is from a foreign company I have no dealings with.	FRAUD
+D156	I'm raising a dispute for a charge that I don't believe is valid.	FRAUD
+D157	This merchant added unauthorized items to my bill.	FRAUD
+D158	I was told the payment didn't go through, so I paid again. Now I see both charges.	FRAUD
+D159	The item arrived broken, and the seller has since closed their store.	FRAUD
+D160	This charge is for a higher amount than my pre-authorization.	FRAUD
+D161	The service provided was not as described, I want my money back.	FRAUD
+D162	This merchant has charged me again for something I bought last month.	FRAUD
+D163	I'm not happy with this purchase. It feels like I was misled.	FRAUD
+D164	I am disputing the quality of the goods received for this transaction.	FRAUD
+D165	The merchant is refusing to honor their return policy.	FRAUD
+D166	I cancelled this order within minutes, why was I still charged?	FRAUD
+D167	This charge is related to a service that didn't work. The company won't reply.	FRAUD
+D168	I paid for express shipping but the item never arrived.	FRAUD
+D169	The final bill was padded with extra charges I did not approve.	FRAUD
+D170	This transaction was for a pre-order of a product that was never released.	FRAUD
+D171	I want to reverse this payment, the business is a sham.	FRAUD
+D172	The amount debited is wrong. It should have been much less.	FRAUD
+D173	I have a problem with a recent transaction. The merchant is being difficult.	FRAUD
+D174	This company's advertising was completely false. I want a chargeback.	FRAUD
+D175	I've been double-billed for my monthly subscription this month.	FRAUD
+D176	The product I received is a cheap knock-off. This is not what I paid for.	FRAUD
+D177	This hotel charged my card for mini-bar items I did not consume.	FRAUD
+D178	I have an issue with a charge from a rental car company. The fees are not right.	FRAUD
+D179	The consultant I paid did not provide the services promised.	FRAUD
+D180	I am requesting a chargeback because the merchant has gone out of business.	FRAUD
+D181	This charge is related to an unresolved issue I have with the vendor.	FRAUD
+D182	They charged me a 'non-refundable deposit' for a service that was cancelled.	FRAUD
+D183	The digital course I purchased is of extremely low quality and not as advertised.	FRAUD
+D184	This looks like the same transaction I disputed last month from the same merchant.	FRAUD
+D185	I was charged for a full year's subscription when I only wanted one month.	FRAUD
+D186	The seller sent an empty box. I have been scammed.	FRAUD
+D187	This airline charged me for baggage that should have been free.	FRAUD
+D188	I'm raising this dispute as my attempts to resolve with the merchant have failed.	FRAUD
+D189	The software I bought doesn't work and the seller won't issue a refund.	FRAUD
+D190	This charge is incorrect. Please investigate this billing error.	FRAUD
+D191	The price tag said one thing, my statement says another.	FRAUD
+D192	I believe I was deliberately overcharged at this restaurant.	FRAUD
+D193	This repair shop charged me for work that was not performed.	FRAUD
+D194	I have been billed for a service after my contract had already ended.	FRAUD
+D195	The event I bought tickets for was cancelled, but the organizer is not refunding.	FRAUD
+D196	I want to dispute this payment. The goods were not authentic.	FRAUD
+D197	A strange charge appeared on my account after using a public Wi-Fi.	FRAUD
+D198	The gym is still charging my card even after I cancelled my membership in writing.	FRAUD
+D199	I'm challenging this transaction as the services rendered were incomplete.	FRAUD
+D200	The company made unauthorized withdrawals after I cancelled my authorization.	FRAUD
+D201	The subscription was much harder to cancel than to sign up for, seems intentional.	FRAUD
+D202	This vendor is non-communicative after taking my money.	FRAUD
+D203	A payment was processed on my card for a purchase I decided not to make.	FRAUD
+D204	The terms of service were changed without notice leading to this charge.	FRAUD
+D205	I'm unhappy with the resolution offered by the merchant for a faulty product.	FRAUD
+D206	I returned the rental equipment on time but was charged a late fee.	FRAUD
+D207	There's a discrepancy in the amount I was supposed to be charged for this hotel stay.	FRAUD
+D208	I am filing a complaint against this merchant for unethical business practices.	FRAUD
+D209	This charge is for a 'free' gift that I was asked to pay shipping for, but nothing came.	FRAUD
+D210	I'm disputing this because the merchant is refusing to send a proper invoice.	FRAUD
+D211	The product stopped working after a day and the seller is ignoring me.	FRAUD
+D212	This donation was supposed to be a one-time thing, not monthly.	FRAUD
+D213	I have evidence that this merchant is running a bait-and-switch scam.	FRAUD
+D214	The charge is from an app that my kid downloaded. They shouldn't be allowed to charge.	FRAUD
+D215	I am not paying for this, the item delivered was not what was pictured online.	FRAUD
+D216	This company has a history of scamming customers, which I found out too late.	FRAUD
+D217	The workshop I paid for was a complete waste of money and a fraud.	FRAUD
+D218	I'm being charged for a cloud service I deleted my account from months ago.	FRAUD
+D219	The amount charged is higher than the estimate I was given.	FRAUD
+D220	This bill contains charges for services I explicitly declined.	FRAUD
+D221	I was charged twice for the same meal at the restaurant.	DUPLICATE_CHARGE
+D222	My card was swiped two times for the same purchase at the supermarket.	DUPLICATE_CHARGE
+D223	Received two SMS alerts for the exact same transaction amount and merchant.	DUPLICATE_CHARGE
+D224	This is a duplicate charge. I only made one online order.	DUPLICATE_CHARGE
+D225	I got double-billed for my monthly internet subscription.	DUPLICATE_CHARGE
+D226	The exact same UPI payment was debited from my account twice.	DUPLICATE_CHARGE
+D227	Please reverse one of these charges, they are duplicates.	DUPLICATE_CHARGE
+D228	The merchant charged me again for the same item minutes after the first charge.	DUPLICATE_CHARGE
+D229	My statement shows two identical charges from the same vendor on the same day.	DUPLICATE_CHARGE
+D230	I was billed two times for a single tank of petrol.	DUPLICATE_CHARGE
+D231	This is a clear duplicate transaction, please refund one.	DUPLICATE_CHARGE
+D232	My credit card was charged twice for one hotel booking.	DUPLICATE_CHARGE
+D233	I have two debits for the same QR code scan.	DUPLICATE_CHARGE
+D234	Why was my account charged twice for the same utility bill payment?	DUPLICATE_CHARGE
+D235	The POS machine seemed faulty and the cashier swiped my card twice.	DUPLICATE_CHARGE
+D236	Reporting a duplicate debit for my monthly gym membership.	DUPLICATE_CHARGE
+D237	I paid my EMI, but the amount was deducted two times.	DUPLICATE_CHARGE
+D238	This is a duplicate charge, identical to the one right above it on my statement.	DUPLICATE_CHARGE
+D239	The food delivery app charged me twice for a single order.	DUPLICATE_CHARGE
+D240	I'm seeing a double charge for my recent online purchase.	DUPLICATE_CHARGE
+D241	One transaction, but two charges. Please fix this.	DUPLICATE_CHARGE
+D242	I was charged twice for the same set of movie tickets.	DUPLICATE_CHARGE
+D243	The exact same amount was debited twice by the same company, one second apart.	DUPLICATE_CHARGE
+D244	This is a duplicate. I only authorized one payment.	DUPLICATE_CHARGE
+D245	My monthly software subscription was billed twice this month.	DUPLICATE_CHARGE
+D246	I used my card once, but the statement shows two charges.	DUPLICATE_CHARGE
+D247	A duplicate payment was made to the same UPI ID.	DUPLICATE_CHARGE
+D248	Please refund the second charge, it's a duplicate.	DUPLICATE_CHARGE
+D249	The toll booth charged my FASTag twice for the same crossing.	DUPLICATE_CHARGE
+D250	I need to dispute one of these two identical charges.	DUPLICATE_CHARGE
+D251	There are two debits for my one-time doctor's appointment fee.	DUPLICATE_CHARGE
+D252	I was accidentally charged twice by the barista.	DUPLICATE_CHARGE
+D253	My card was billed two times for a single online course.	DUPLICATE_CHARGE
+D254	This is a straightforward duplicate billing error.	DUPLICATE_CHARGE
+D255	I'm requesting a reversal of a duplicate charge from my recent shopping.	DUPLICATE_CHARGE
+D256	The app processed my payment twice for the same ride.	DUPLICATE_CHARGE
+D257	I have been charged twice for the same mobile recharge.	DUPLICATE_CHARGE
+D258	A clear case of a double charge. The transaction IDs are almost identical.	DUPLICATE_CHARGE
+D259	Please look into this, I've been charged twice for the same service.	DUPLICATE_CHARGE
+D260	The parking meter charged my card two times.	DUPLICATE_CHARGE
+D261	This is a duplicate debit. I only bought one item.	DUPLICATE_CHARGE
+D262	My account shows two payments for my electricity bill.	DUPLICATE_CHARGE
+D263	I paid once, but it shows up twice on my bank activity.	DUPLICATE_CHARGE
+D264	The system charged me twice for my annual membership renewal.	DUPLICATE_CHARGE
+D265	I'm reporting a duplicate transaction that occurred yesterday.	DUPLICATE_CHARGE
+D266	Got charged twice at the drive-thru.	DUPLICATE_CHARGE
+D267	There's a duplicate of a charge from three days ago.	DUPLICATE_CHARGE
+D268	A second charge appeared for a payment I made this morning.	DUPLICATE_CHARGE
+D269	My insurance premium was deducted twice this month.	DUPLICATE_CHARGE
+D270	I would like to dispute this second charge as it is a duplicate.	DUPLICATE_CHARGE
+D271	The vending machine charged me twice for one snack.	DUPLICATE_CHARGE
+D272	Two debits with the same merchant and amount. This is a duplicate.	DUPLICATE_CHARGE
+D273	My rent payment was processed twice by the property manager.	DUPLICATE_CHARGE
+D274	I've been double-charged for a digital download.	DUPLICATE_CHARGE
+D275	This charge is an exact copy of another one.	DUPLICATE_CHARGE
+D276	The pharmacy charged my card twice for my prescription.	DUPLICATE_CHARGE
+D277	I only have one car, but was charged twice for the car wash.	DUPLICATE_CHARGE
+D278	Please remove one of these duplicate entries from my statement.	DUPLICATE_CHARGE
+D279	A second unauthorized payment was taken for my order.	DUPLICATE_CHARGE
+D280	I am being billed twice for the same monthly cloud storage fee.	DUPLICATE_CHARGE
+D281	The cab fare was charged to my card two times.	DUPLICATE_CHARGE
+D282	My card was charged twice in quick succession at the same terminal.	DUPLICATE_CHARGE
+D283	This is a duplicate transaction that needs to be refunded.	DUPLICATE_CHARGE
+D284	I only ordered one pizza, not two. Why was I charged twice?	DUPLICATE_CHARGE
+D285	I have two charges for the same consultation fee.	DUPLICATE_CHARGE
+D286	The online portal double-charged me for a government service fee.	DUPLICATE_CHARGE
+D287	Please investigate; I have a duplicate charge from this merchant.	DUPLICATE_CHARGE
+D288	I tapped my card once, but I see two charges.	DUPLICATE_CHARGE
+D289	This is a repeat charge for a service I paid for last week.	DUPLICATE_CHARGE
+D290	I was charged twice for a single item from an in-flight purchase.	DUPLICATE_CHARGE
+D291	The cashier said the first payment didn't go through, so I paid again. Now I see both.	DUPLICATE_CHARGE
+D292	I see two similar charges from the same company on the same day.	DUPLICATE_CHARGE
+D293	The website gave me an error, so I hit 'submit' again. It looks like both went through.	DUPLICATE_CHARGE
+D294	There's a charge for an order, and then another identical charge a minute later.	DUPLICATE_CHARGE
+D295	I'm not sure why there are two debits for this service. I only used it once.	DUPLICATE_CHARGE
+D296	My app froze during payment, so I restarted and paid. Now I see two debits.	DUPLICATE_CHARGE
+D297	Can you explain these two transactions? They look the same to me.	DUPLICATE_CHARGE
+D298	The first tap of my card showed 'declined', so I tapped again. Both were charged.	DUPLICATE_CHARGE
+D299	I tried to make a payment and it failed, but the amount was debited. I tried again and it was debited again.	DUPLICATE_CHARGE
+D300	There is a charge, and then another charge for the exact same amount to the same merchant.	DUPLICATE_CHARGE
+D301	I see an authorization and a separate charge for the same purchase.	DUPLICATE_CHARGE
+D302	I think the system glitched and processed my payment twice.	DUPLICATE_CHARGE
+D303	My card was charged for my groceries, and then again for the same amount.	DUPLICATE_CHARGE
+D304	I have two charges from this airline for what should be a single ticket.	DUPLICATE_CHARGE
+D305	The payment terminal was slow, so the clerk ran my card a second time.	DUPLICATE_CHARGE
+D306	I'm seeing two debits for my subscription. I should only have one.	DUPLICATE_CHARGE
+D307	This charge is very similar to another one on my account. Is it an error?	DUPLICATE_CHARGE
+D308	I paid for my order, but was then charged again upon delivery for the same order.	DUPLICATE_CHARGE
+D309	The first attempt to pay with QR code failed, the second worked. But I was charged for both.	DUPLICATE_CHARGE
+D310	Why am I seeing two back-to-back payments to this online store?	DUPLICATE_CHARGE
+D311	A payment was taken, then reversed, then taken again. But the reversal is not showing.	DUPLICATE_CHARGE
+D312	I'm questioning these two charges. They have the same reference number.	DUPLICATE_CHARGE
+D313	I was billed for this service on the 1st and then again on the 3rd.	DUPLICATE_CHARGE
+D314	The website crashed during payment. I think my order was processed twice.	DUPLICATE_CHARGE
+D315	I see two charges from this hotel - one at check-in and one at check-out for the same amount.	DUPLICATE_CHARGE
+D316	I had to enter my PIN twice. It looks like I was charged twice.	DUPLICATE_CHARGE
+D317	There is a pending charge and a posted charge for the same transaction.	DUPLICATE_CHARGE
+D318	I thought the first transaction was cancelled, but I was charged for it and a new one.	DUPLICATE_CHARGE
+D319	This looks like a system error that resulted in a second charge.	DUPLICATE_CHARGE
+D320	The total on my statement is double what I actually spent at this shop.	DUPLICATE_CHARGE
+D321	I'm concerned about two identical amounts being debited consecutively.	DUPLICATE_CHARGE
+D322	I was billed for my coffee, and then received another charge from the same cafe an hour later.	DUPLICATE_CHARGE
+D323	My automatic bill payment went through, but I also paid it manually.	DUPLICATE_CHARGE
+D324	These two charges are identical. Please verify if one is a mistake.	DUPLICATE_CHARGE
+D325	The internet was down, so I think my payment was sent twice when it came back on.	DUPLICATE_CHARGE
+D326	I authorized a single payment, not two. Please investigate.	DUPLICATE_CHARGE
+D327	This merchant appears to have processed my payment on two different systems.	DUPLICATE_CHARGE
+D328	I have a charge from the 5th and a similar one from the 6th that I don't recognize.	DUPLICATE_CHARGE
+D329	I think I was charged for the original item and for the exchanged item.	DUPLICATE_CHARGE
+D330	A manual swipe and a chip read seem to have both been charged for my dinner.	DUPLICATE_CHARGE
+D331	There's one receipt in my hand, but two debits on my account.	DUPLICATE_CHARGE
+D332	I'm disputing a second charge that appeared after I had already left the store.	DUPLICATE_CHARGE
+D333	The amount for my booking was taken, and then it looks like it was taken again.	DUPLICATE_CHARGE
+D334	I'm unsure if this is a separate purchase or a mistaken double charge.	DUPLICATE_CHARGE
+D335	My phone sent the payment request twice due to a network issue.	DUPLICATE_CHARGE
+D336	This company charged me for this month's service, and then again a day later.	DUPLICATE_CHARGE
+D337	The card reader was acting up. I believe it resulted in two charges.	DUPLICATE_CHARGE
+D338	I see two charges for the same amount with slightly different timestamps.	DUPLICATE_CHARGE
+D339	A payment was made, and then another was made automatically for the same invoice.	DUPLICATE_CHARGE
+D340	I have a feeling I was billed twice. Can you check these two transactions?	DUPLICATE_CHARGE
+D341	I'm seeing double on my statement for a recent purchase.	DUPLICATE_CHARGE
+D342	The charge from this vendor appears twice in my recent activity.	DUPLICATE_CHARGE
+D343	I have two charges related to a single rental agreement.	DUPLICATE_CHARGE
+D344	I was charged for my ticket, and then my travel partner was also charged for my ticket.	DUPLICATE_CHARGE
+D345	The amounts are the same, the merchant is the same. This must be an error.	DUPLICATE_CHARGE
+D346	I paid my bill online, but it seems the auto-debit also went through.	DUPLICATE_CHARGE
+D347	This transaction seems to have been posted to my account twice.	DUPLICATE_CHARGE
+D348	I pressed the 'Pay Now' button only once, but I'm seeing two charges.	DUPLICATE_CHARGE
+D349	Can you confirm if these two payments are for different services? They look identical.	DUPLICATE_CHARGE
+D350	I suspect a technical issue has caused this duplicate billing.	DUPLICATE_CHARGE
+D351	I'm concerned about a second, unexpected debit from this company.	DUPLICATE_CHARGE
+D352	My account balance dropped by double the amount of my purchase.	DUPLICATE_CHARGE
+D353	I was billed for this item at the time of order and then again at the time of shipping.	DUPLICATE_CHARGE
+D354	I updated my payment details and it seems I was charged on both the old and new card.	DUPLICATE_CHARGE
+D355	There is a duplicate of a transaction from earlier today.	DUPLICATE_CHARGE
+D356	I made a payment via the app, and my wife also paid the same bill separately.	DUPLICATE_CHARGE
+D357	This merchant's system seems to have a bug that charged me twice.	DUPLICATE_CHARGE
+D358	I'm disputing what appears to be a redundant charge on my account.	DUPLICATE_CHARGE
+D359	The subscription fee was taken out, and then a manual payment for it was also processed.	DUPLICATE_CHARGE
+D360	There are two charges here that I believe are for the same service call.	DUPLICATE_CHARGE
+D361	I have two charges from the same restaurant for different amounts, but I only ate there once.	DUPLICATE_CHARGE
+D362	I was charged for a product, then for shipping in a separate, identical transaction.	DUPLICATE_CHARGE
+D363	The merchant said the transaction was voided, but the charge is still there, along with a new one.	DUPLICATE_CHARGE
+D364	I bought an item and then paid for gift wrapping. It looks like I was charged for the item twice.	DUPLICATE_CHARGE
+D365	A pre-authorization charge was never removed after the final payment went through.	DUPLICATE_CHARGE
+D366	My monthly payment was taken, and then another payment was taken after I updated my subscription plan.	DUPLICATE_CHARGE
+D367	I paid a deposit, and now the final bill also includes the deposit amount.	DUPLICATE_CHARGE
+D368	There is a charge from the company's main name and another from their payment processor for the same service.	DUPLICATE_CHARGE
+D369	I paid my invoice, but I see a charge for the invoice and another for one of the line items on it.	DUPLICATE_CHARGE
+D370	I was charged, the order was cancelled and I was charged again when I re-ordered. The first charge was never refunded.	DUPLICATE_CHARGE
+D371	The total amount debited from my account is incorrect for this purchase. It's exactly double.	DUPLICATE_CHARGE
+D372	I have a charge from 'SQUARE' and another from the coffee shop for the same time.	DUPLICATE_CHARGE
+D373	My bill was split with a friend, but it looks like we were both charged the full amount.	DUPLICATE_CHARGE
+D374	The merchant charged my corporate card and my personal card for the same business dinner.	DUPLICATE_CHARGE
+D375	I paid for the rental car, but I'm also seeing a separate charge for the insurance which should have been included.	DUPLICATE_CHARGE
+D376	I'm being charged for the same software license on a monthly and annual basis.	DUPLICATE_CHARGE
+D377	There's a charge from the hotel and another from the booking website for the same stay.	DUPLICATE_CHARGE
+D378	I have a charge for the item, and then another charge for the same amount with the description ' miscellaneous'.	DUPLICATE_CHARGE
+D379	This medical bill was paid by me, but it also looks like my insurance paid it.	DUPLICATE_CHARGE
+D380	I see a charge from the parent company and also from the local franchise for the same membership.	DUPLICATE_CHARGE
+D381	The original charge and the currency conversion charge appear as two separate debits of the same value.	DUPLICATE_CHARGE
+D382	My account was debited, but the payment is not reflecting in my order history, so I paid again.	DUPLICATE_CHARGE
+D383	I paid the tip in cash, but it seems the restaurant also added it to my card transaction.	DUPLICATE_CHARGE
+D384	There is a charge for 'Service Fee' and another for 'Consultation' which should be the same thing.	DUPLICATE_CHARGE
+D385	I bought a bundle deal, but I've been charged for the bundle and also for an individual item from it.	DUPLICATE_CHARGE
+D386	The invoice shows one total, but two payments have been taken from my account against it.	DUPLICATE_CHARGE
+D387	I'm seeing a charge on my card and a deduction from my PayPal linked to it for the same purchase.	DUPLICATE_CHARGE
+D388	The payment for my order and the payment for a back-ordered item from it were processed at the same time.	DUPLICATE_CHARGE
+D389	I was charged for a subscription and then charged again when I accessed it from a different device.	DUPLICATE_CHARGE
+D390	It appears I was charged for the service and also for the tax on the service separately, but for the full amount.	DUPLICATE_CHARGE
+D391	I made one payment, but it seems to have been processed on two different dates.	DUPLICATE_CHARGE
+D392	My wife and I both have automatic payments set up for the same utility bill, and it seems both were processed this month.	DUPLICATE_CHARGE
+D393	The amount for my flight ticket and the amount for my seat upgrade appear to be the same.	DUPLICATE_CHARGE
+D394	I'm questioning why a manual payment was processed when an auto-debit was already scheduled for the same day.	DUPLICATE_CHARGE
+D395	I paid an outstanding balance, but my regular monthly payment was also deducted.	DUPLICATE_CHARGE
+D396	A recurring payment was taken out twice in the same week.	DUPLICATE_CHARGE
+D397	I have a charge from the website, and another from their mobile app for the same digital content.	DUPLICATE_CHARGE
+D398	It looks like I was charged for the initial quote and then again for the final invoice.	DUPLICATE_CHARGE
+D399	The charge from my card and the charge from my digital wallet for the same purchase both went through.	DUPLICATE_CHARGE
+D400	This merchant charged me for an annual plan, but is also still charging me monthly.	DUPLICATE_CHARGE
+D401	I see a charge from 'Stripe' and from the merchant directly for my order.	DUPLICATE_CHARGE
+D402	I paid the full amount, but I'm also being charged for the first installment.	DUPLICATE_CHARGE
+D403	The system must have duplicated the order as I received two packages and was charged twice.	DUPLICATE_CHARGE
+D404	I have two debits for the same rental period, one at the beginning and one at the end.	DUPLICATE_CHARGE
+D405	The fee for this transaction was debited, and then the transaction itself was debited again including the fee.	DUPLICATE_CHARGE
+D406	It appears I was charged for the event ticket and also for a 'convenience fee' of the same price.	DUPLICATE_CHARGE
+D407	I'm seeing two different transaction IDs for what should be a single payment.	DUPLICATE_CHARGE
+D408	The amount I transferred and an identical 'service charge' were both debited.	DUPLICATE_CHARGE
+D409	My card was charged for this purchase, and it also seems points were redeemed for the same purchase.	DUPLICATE_CHARGE
+D410	There's a debit from the holding company and one from the specific brand for the same item.	DUPLICATE_CHARGE
+D411	My account was charged, the transaction failed, and then a successful transaction was also charged.	DUPLICATE_CHARGE
+D412	This looks like a duplicate, but the merchant name is spelled slightly differently.	DUPLICATE_CHARGE
+D413	I have one charge with the correct business name, and another with a generic processor name for the same amount.	DUPLICATE_CHARGE
+D414	A payment was taken, and then another payment of the same value was taken with a different reference code.	DUPLICATE_CHARGE
+D415	I'm being billed for the same software on two different email accounts linked to the same card.	DUPLICATE_CHARGE
+D416	It seems I was charged when I placed the order and then again when the order was confirmed.	DUPLICATE_CHARGE
+D417	The total of these two transactions equals the cost of my purchase plus an identical, erroneous charge.	DUPLICATE_CHARGE
+D418	The mobile order payment and the in-store payment for the same items were both processed.	DUPLICATE_CHARGE
+D419	I have a charge from a week ago, and a new pending charge for the same thing.	DUPLICATE_CHARGE
+D420	I paid my balance, but the automatic payment for the minimum amount also went through.	DUPLICATE_CHARGE
+D421	The transaction failed but the amount was deducted from my account.	FAILED_TRANSACTION
+D422	My payment was declined but I still got charged.	FAILED_TRANSACTION
+D423	I got an error message during the transaction, but the money is gone.	FAILED_TRANSACTION
+D424	The payment didn't go through, however, my account has been debited.	FAILED_TRANSACTION
+D425	UPI transaction was not successful, but the amount has not been reversed.	FAILED_TRANSACTION
+D426	The POS machine said 'Transaction Failed', but I have an SMS alert for the debit.	FAILED_TRANSACTION
+D427	My NEFT transfer failed. When will I get the money back?	FAILED_TRANSACTION
+D428	The website showed a payment error, yet the charge appears on my card.	FAILED_TRANSACTION
+D429	This transaction failed, but the money has not been credited back to my account.	FAILED_TRANSACTION
+D430	I was debited for a failed ATM withdrawal.	FAILED_TRANSACTION
+D431	The payment gateway timed out, but I was charged for the failed attempt.	FAILED_TRANSACTION
+D432	My card payment was unsuccessful, but the amount was blocked.	FAILED_TRANSACTION
+D433	The app said the recharge failed, but my bank account was debited.	FAILED_TRANSACTION
+D434	This transaction shows as failed in my history, but there is no refund yet.	FAILED_TRANSACTION
+D435	The money was debited but the merchant said the transaction failed.	FAILED_TRANSACTION
+D436	I am raising a dispute for a failed transaction where the amount was not refunded.	FAILED_TRANSACTION
+D437	My transfer failed due to a technical issue, but the money has been taken.	FAILED_TRANSACTION
+D438	The payment was unsuccessful. Please refund the amount debited.	FAILED_TRANSACTION
+D439	Got an error during checkout, but my card was charged for the failed order.	FAILED_TRANSACTION
+D440	The transaction status is 'failed', so why has the money been deducted?	FAILED_TRANSACTION
+D441	I received a 'transaction failed' notification but the funds were taken.	FAILED_TRANSACTION
+D442	This online payment did not go through, but my statement shows a charge.	FAILED_TRANSACTION
+D443	The QR code payment failed, but the debit is showing in my passbook.	FAILED_TRANSACTION
+D444	A failed attempt to pay my credit card bill resulted in a debit.	FAILED_TRANSACTION
+D445	My IMPS transfer failed, but the amount has not been returned.	FAILED_TRANSACTION
+D446	The booking was unsuccessful, but my account was charged anyway.	FAILED_TRANSACTION
+D447	My money was debited for a transaction that never completed.	FAILED_TRANSACTION
+D448	The payment terminal printed a 'cancelled' slip, but my card shows a debit.	FAILED_TRANSACTION
+D449	I want to report a debit for a failed mobile banking transaction.	FAILED_TRANSACTION
+D450	This transaction was not processed, but you took the money.	FAILED_TRANSACTION
+D451	I got a debit alert, but the merchant's machine showed a communication error.	FAILED_TRANSACTION
+D452	The transfer was unsuccessful. I need the debited amount back.	FAILED_TRANSACTION
+D453	Why was I charged for a payment that timed out?	FAILED_TRANSACTION
+D454	The merchant did not receive payment for this failed transaction. Please refund.	FAILED_TRANSACTION
+D455	The bill payment failed, but the amount was cut from my account.	FAILED_TRANSACTION
+D456	The transaction was reversed by the beneficiary bank, but the amount is not back yet.	FAILED_TRANSACTION
+D457	This UPI transaction failed due to a server issue, but money was debited.	FAILED_TRANSACTION
+D458	I need a refund for a failed card transaction.	FAILED_TRANSACTION
+D459	The money was taken but the ticket was not generated due to an error.	FAILED_TRANSACTION
+D460	The status of my payment is 'failure', but the money has not been refunded.	FAILED_TRANSACTION
+D461	I was charged for a payment that did not reach the recipient.	FAILED_TRANSACTION
+D462	A network error caused the transaction to fail, but I was still charged.	FAILED_TRANSACTION
+D463	The POS transaction was cancelled, yet the debit appears on my account.	FAILED_TRANSACTION
+D464	My account was debited but the merchant says payment was not successful.	FAILED_TRANSACTION
+D465	The money was deducted but the order was not placed due to an error.	FAILED_TRANSACTION
+D466	A failed top-up transaction resulted in a debit from my bank.	FAILED_TRANSACTION
+D467	This transaction was unsuccessful. Please reverse the charge.	FAILED_TRANSACTION
+D468	I was debited but the beneficiary did not receive the funds as the transaction failed.	FAILED_TRANSACTION
+D469	The e-commerce site showed 'Payment Failed', but the charge is on my statement.	FAILED_TRANSACTION
+D470	A system malfunction caused the transaction to fail, but my account was charged.	FAILED_TRANSACTION
+D471	Please credit back the amount for this failed debit card transaction.	FAILED_TRANSACTION
+D472	My utility payment failed, but the amount has been held from my account.	FAILED_TRANSACTION
+D473	The money for this failed UPI payment has not been returned to my account.	FAILED_TRANSACTION
+D474	My transaction did not succeed, but I received a debit message.	FAILED_TRANSACTION
+D475	The order was not confirmed, but the payment was taken.	FAILED_TRANSACTION
+D476	I had insufficient funds, the transaction failed, but I was still charged a fee.	FAILED_TRANSACTION
+D477	The money was debited, but the recipient's bank rejected the transfer.	FAILED_TRANSACTION
+D478	This is a charge for an order that did not go through.	FAILED_TRANSACTION
+D479	My attempt to pay online failed, but the money was deducted.	FAILED_TRANSACTION
+D480	The transaction was aborted, but my account statement shows a debit.	FAILED_TRANSACTION
+D481	I was charged, but the recipient was not credited.	FAILED_TRANSACTION
+D482	The payment status says error, but the debit is successful.	FAILED_TRANSACTION
+D483	This charge is from a failed attempt to reload my wallet.	FAILED_TRANSACTION
+D484	My FASTag transaction failed at the toll, but the amount was cut.	FAILED_TRANSACTION
+D485	The transaction couldn't be processed, but the amount is not back in my account.	FAILED_TRANSACTION
+D486	I want my money back for this failed online payment.	FAILED_TRANSACTION
+D487	The merchant terminal cancelled the transaction but the bank charged me.	FAILED_TRANSACTION
+D488	The payment failed midway through, but the amount was taken from my balance.	FAILED_TRANSACTION
+D489	My account was debited without the transaction being completed.	FAILED_TRANSACTION
+D490	This fund transfer was unsuccessful, please refund the amount.	FAILED_TRANSACTION
+D491	The payment page got stuck, and now I see a charge but the merchant has no record of it.	FAILED_TRANSACTION
+D492	My transaction is showing as 'pending' for three days. Did it fail?	FAILED_TRANSACTION
+D493	I was charged but never received a confirmation email from the merchant.	FAILED_TRANSACTION
+D494	The money was deducted but the merchant says they haven't received it.	FAILED_TRANSACTION
+D495	I'm not sure if this transaction was successful. The merchant says no, but I was charged.	FAILED_TRANSACTION
+D496	The app crashed while I was making the payment. My account was debited.	FAILED_TRANSACTION
+D497	The amount was debited, but my order status is still 'payment pending'.	FAILED_TRANSACTION
+D498	I had a network issue while paying. I think the payment failed but I was charged.	FAILED_TRANSACTION
+D499	My account has been charged but the service was not activated.	FAILED_TRANSACTION
+D500	This transaction is still 'in progress' after 24 hours. The recipient has not got it.	FAILED_TRANSACTION
+D501	The money left my account, but the booking was not made.	FAILED_TRANSACTION
+D502	I received a debit SMS, but the transaction is not showing up in the merchant's system.	FAILED_TRANSACTION
+D503	What is the status of this transaction? It was debited but the purpose was not fulfilled.	FAILED_TRANSACTION
+D504	The payment seems to be stuck somewhere. I was debited but the merchant denies payment.	FAILED_TRANSACTION
+D505	I was debited for this, but the online cart emptied and the order was not placed.	FAILED_TRANSACTION
+D506	The connection was lost during payment. I was charged but got no service.	FAILED_TRANSACTION
+D507	This amount was held from my account, but the purchase was not completed.	FAILED_TRANSACTION
+D508	The recipient's details were incorrect, the transfer should have failed but money was cut.	FAILED_TRANSACTION
+D509	I have a debit on my account for an order that the merchant says was cancelled.	FAILED_TRANSACTION
+D510	My balance was deducted but the recipient's account was not credited.	FAILED_TRANSACTION
+D511	This UPI transaction has been processing for a very long time. I think it has failed.	FAILED_TRANSACTION
+D512	I tried buying something, the amount was debited but the item is still in my cart.	FAILED_TRANSACTION
+D513	The amount was deducted from my account but the transfer is not reflecting for the beneficiary.	FAILED_TRANSACTION
+D514	I'm inquiring about a charge for which I did not receive any service or goods.	FAILED_TRANSACTION
+D515	The transaction is marked as 'initiated' but the money is gone and nothing happened.	FAILED_TRANSACTION
+D516	The cashier was having trouble with the machine. I was charged but he said it didn't work.	FAILED_TRANSACTION
+D517	My account was charged but my mobile number was not recharged.	FAILED_TRANSACTION
+D518	The money was debited but the flight was not booked.	FAILED_TRANSACTION
+D519	This payment is in a frozen state. The money is neither here nor there.	FAILED_TRANSACTION
+D520	The debit happened but the purpose of the transaction failed.	FAILED_TRANSACTION
+D521	The screen went blank after I entered my OTP. The charge went through though.	FAILED_TRANSACTION
+D522	I was debited but the merchant's transaction ID is not generated.	FAILED_TRANSACTION
+D523	My bank says the payment was successful, but the merchant says it failed.	FAILED_TRANSACTION
+D524	I have a charge for an online session that I was unable to join due to a technical error.	FAILED_TRANSACTION
+D525	The system took my money but didn't generate the e-ticket.	FAILED_TRANSACTION
+D526	I'm seeking a reversal for a debit where the credit to the beneficiary failed.	FAILED_TRANSACTION
+D527	The payment for my insurance premium was deducted but the policy was not renewed.	FAILED_TRANSACTION
+D528	This transaction is in a questionable state. I was charged but nothing happened.	FAILED_TRANSACTION
+D529	The amount was reserved on my card for a purchase that didn't materialize.	FAILED_TRANSACTION
+D530	There's a debit on my account that doesn't correspond to a successful order.	FAILED_TRANSACTION
+D531	The website was down, but my payment attempt seems to have been charged.	FAILED_TRANSACTION
+D532	My card was charged but the merchant has no knowledge of this transaction.	FAILED_TRANSACTION
+D533	The amount has been deducted, but my bill is still showing as unpaid.	FAILED_TRANSACTION
+D534	I'm reporting a transaction where the money left my account but vanished.	FAILED_TRANSACTION
+D535	This payment seems to have failed silently. My account was debited with no result.	FAILED_TRANSACTION
+D536	The money was taken but the beneficiary account number was invalid.	FAILED_TRANSACTION
+D537	I have been charged for an item that is now out of stock and the order was cancelled.	FAILED_TRANSACTION
+D538	This UPI payment is stuck. The receiver has not got the money.	FAILED_TRANSACTION
+D539	The application form submission failed, but the application fee was taken.	FAILED_TRANSACTION
+D540	I got a debit alert, but the merchant confirmation page never loaded.	FAILED_TRANSACTION
+D541	My money is in limbo. It was debited but the transaction didn't complete.	FAILED_TRANSACTION
+D542	The electricity bill is still outstanding despite my account being debited for it.	FAILED_TRANSACTION
+D543	I have a debit but no corresponding credit to the intended recipient.	FAILED_TRANSACTION
+D544	My transaction was not confirmed but the funds have been taken from my account.	FAILED_TRANSACTION
+D545	The merchant's system crashed during the transaction. My card was charged.	FAILED_TRANSACTION
+D546	This debit needs to be refunded as the service was not rendered due to a system failure.	FAILED_TRANSACTION
+D547	The movie ticket booking failed but the amount was deducted.	FAILED_TRANSACTION
+D548	I was debited but the merchant asked me to pay again as it had not gone through.	FAILED_TRANSACTION
+D549	There's an issue with this payment. It was debited but the outcome is unknown.	FAILED_TRANSACTION
+D550	My funds were debited, but the transfer did not go through as intended.	FAILED_TRANSACTION
+D551	The transaction did not result in a valid order. Please refund the amount.	FAILED_TRANSACTION
+D552	The merchant cancelled the transaction due to a timeout, but my account shows a debit.	FAILED_TRANSACTION
+D553	The money was cut but the service I was paying for is still inactive.	FAILED_TRANSACTION
+D554	My wallet was debited, but the funds were not added to the merchant's wallet.	FAILED_TRANSACTION
+D555	This charge corresponds to an unsuccessful attempt to book a hotel.	FAILED_TRANSACTION
+D556	I'm raising a dispute for a debit without a successful transaction.	FAILED_TRANSACTION
+D557	The payment seems to be lost. My bank debited it, but the recipient never got it.	FAILED_TRANSACTION
+D558	I was charged, but the service subscription failed to activate.	FAILED_TRANSACTION
+D559	My account was debited but the investment transaction was not processed.	FAILED_TRANSACTION
+D560	I am missing money from my account related to a transaction that didn't work.	FAILED_TRANSACTION
+D561	This NEFT is showing as processed but the beneficiary claims they haven't received anything.	FAILED_TRANSACTION
+D562	A transaction hold was placed on my account for a purchase that was ultimately cancelled.	FAILED_TRANSACTION
+D563	The money was debited but the beneficiary details are wrong, so it should have been returned by now.	FAILED_TRANSACTION
+D564	I have a debit for this amount, but the merchant provided a refund in cash because their machine wasn't working.	FAILED_TRANSACTION
+D565	This amount was for a pre-authorization that should have been voided.	FAILED_TRANSACTION
+D566	My transaction from yesterday is still not reflecting in the beneficiary account.	FAILED_TRANSACTION
+D567	The merchant charged me, then their system failed and they issued a credit note, but the charge is still there.	FAILED_TRANSACTION
+D568	This IMPS transaction is stuck and has not been credited to the recipient's account.	FAILED_TRANSACTION
+D569	The funds have been deducted but the purpose, which was time-sensitive, has failed.	FAILED_TRANSACTION
+D570	I was told this was a temporary hold, but it has been posted as a final charge.	FAILED_TRANSACTION
+D571	The debit occurred, but the associated service was cancelled by the provider.	FAILED_TRANSACTION
+D572	This transaction was supposed to be declined due to security settings, but it went through and failed later.	FAILED_TRANSACTION
+D573	The money was sent to a UPI ID that is now inactive. It should have bounced back.	FAILED_TRANSACTION
+D574	This charge is from a vending machine that took my money but did not dispense the product.	FAILED_TRANSACTION
+D575	I have a debit that corresponds to a payment made via a link that has now expired.	FAILED_TRANSACTION
+D576	The transaction was successful from my end, but the merchant's bank rejected it.	FAILED_TRANSACTION
+D577	I have been debited for a financial product that was not issued in the end.	FAILED_TRANSACTION
+D578	The amount was deducted but the trade on the platform was not executed.	FAILED_TRANSACTION
+D579	This debit is for a payment that exceeded the transaction limit and should have failed.	FAILED_TRANSACTION
+D580	The money has been debited but the beneficiary account has been closed.	FAILED_TRANSACTION
+D581	This transfer is showing as successful but it was sent to an incorrect account type.	FAILED_TRANSACTION
+D582	I paid for an item that the merchant later told me they could not deliver.	FAILED_TRANSACTION
+D583	The charge is for a deposit on a rental that was cancelled due to unavailability.	FAILED_TRANSACTION
+D584	A hold was placed on my card for gas, but the final charge was never processed correctly.	FAILED_TRANSACTION
+D585	I was debited, but the payment was rejected by the merchant's gateway.	FAILED_TRANSACTION
+D586	This charge relates to an automated payment for an account that I have already closed.	FAILED_TRANSACTION
+D587	The merchant tried to process the payment multiple times, I was charged but they said all failed.	FAILED_TRANSACTION
+D588	This debit is for a payment to a mobile number that is no longer in service.	FAILED_TRANSACTION
+D589	The transaction seems to have been reversed and then charged again, but the initial charge remains.	FAILED_TRANSACTION
+D590	I have been charged for a service that was not provided due to a technical outage on the merchant's side.	FAILED_TRANSACTION
+D591	The payment confirmation for this debit was never received.	FAILED_TRANSACTION
+D592	This transfer has been 'under process' for an entire week. It has clearly failed.	FAILED_TRANSACTION
+D593	The amount has been taken but the associated loan application was rejected.	FAILED_TRANSACTION
+D594	I have a charge from a parking meter that did not add any time to my session.	FAILED_TRANSACTION
+D595	The money was debited but the international transfer did not complete due to compliance issues.	FAILED_TRANSACTION
+D596	This transaction should have been blocked by my daily limit settings.	FAILED_TRANSACTION
+D597	A payment was made to a company that has since ceased operations.	FAILED_TRANSACTION
+D598	The beneficiary is a student who has now graduated, their fee account is closed.	FAILED_TRANSACTION
+D599	I was debited for a payment towards a closed credit card account.	FAILED_TRANSACTION
+D600	This amount has been in a 'settlement pending' state for too long.	FAILED_TRANSACTION
+D601	The debit is for a subscription to a service that is no longer available in my country.	FAILED_TRANSACTION
+D602	I received a 'delivery failed' notice for this digital gift card, but I was charged.	FAILED_TRANSACTION
+D603	This transaction has been floating for days without being credited or reversed.	FAILED_TRANSACTION
+D604	My account was debited for a payment made to an incorrect biller ID.	FAILED_TRANSACTION
+D605	The merchant confirmed that my payment was voided in their system.	FAILED_TRANSACTION
+D606	This charge should have been refunded automatically after the transaction failed.	FAILED_TRANSACTION
+D607	I have been debited for a transaction that was flagged for review and then disappeared.	FAILED_TRANSACTION
+D608	The recipient's bank account details were invalid, so the payment should have reversed instantly.	FAILED_TRANSACTION
+D609	This payment was made to an account that the beneficiary says has been frozen.	FAILED_TRANSACTION
+D610	The debit is present, but there is no corresponding UTR number for this NEFT.	FAILED_TRANSACTION
+D611	The funds for this transaction were returned to the source, but my account has not been credited.	FAILED_TRANSACTION
+D612	This payment was for a crowd-funding project that did not meet its goal.	FAILED_TRANSACTION
+D613	I was charged for an item, but my order was cancelled because it failed a security check.	FAILED_TRANSACTION
+D614	The money was sent to a VPA that is not linked to any bank account.	FAILED_TRANSACTION
+D615	A fee was debited for a service that the provider was ultimately unable to offer.	FAILED_TRANSACTION
+D616	This is an authorization hold for a rental that I cancelled well in advance.	FAILED_TRANSACTION
+D617	The debit is for an international purchase that was blocked by customs.	FAILED_TRANSACTION
+D618	This debit is tied to a transaction that was supposed to be on hold but seems to have been processed.	FAILED_TRANSACTION
+D619	My account was charged, but the merchant cancelled the transaction due to a stock error.	FAILED_TRANSACTION
+D620	I have a debit here but the merchant claims they never received an authorization code.	FAILED_TRANSACTION
+D621	I returned the item two weeks ago but I am still waiting for the refund.	REFUND_PENDING
+D622	My order was cancelled by the merchant, but the refund has not been processed yet.	REFUND_PENDING
+D623	I was promised a refund for the faulty product, but I have not received it.	REFUND_PENDING
+D624	Still waiting for the money to be credited back after a cancelled transaction.	REFUND_PENDING
+D625	How long does the refund take? It's been 10 business days since I returned the product.	REFUND_PENDING
+D626	The merchant confirmed the refund on their end, but it's not showing in my account.	REFUND_PENDING
+D627	This charge was for a flight that was cancelled. I am waiting for the airline to refund me.	REFUND_PENDING
+D628	I'm following up on a refund for a returned clothing item.	REFUND_PENDING
+D629	The refund for my cancelled hotel booking has not been received.	REFUND_PENDING
+D630	The status of my return is 'complete', but where is my refund?	REFUND_PENDING
+D631	Please check on the status of my refund for order #12345.	REFUND_PENDING
+D632	I was told the refund would be processed in 5-7 days, but it has been much longer.	REFUND_PENDING
+D633	This is a dispute for a pending refund from an online store.	REFUND_PENDING
+D634	The service was cancelled and I am yet to receive the promised refund.	REFUND_PENDING
+D635	My account was debited, but the order was cancelled. Still no refund.	REFUND_PENDING
+D636	I am still awaiting a credit for the goods I returned last month.	REFUND_PENDING
+D637	The company agreed to a partial refund, which I have not seen yet.	REFUND_PENDING
+D638	This transaction was supposed to be refunded. It's still pending.	REFUND_PENDING
+D639	Following up on a refund that was initiated on August 5th.	REFUND_PENDING
+D640	My event tickets were cancelled and I am waiting for the refund to be processed.	REFUND_PENDING
+D641	I have the refund confirmation email, but the money is not in my account.	REFUND_PENDING
+D642	I am yet to receive the refund for the duplicate charge I reported earlier.	REFUND_PENDING
+D643	The subscription was cancelled, but the pro-rata refund has not been credited.	REFUND_PENDING
+D644	It has been over a month and I am still waiting for my security deposit refund.	REFUND_PENDING
+D645	The merchant is not responding to my queries about my pending refund.	REFUND_PENDING
+D646	I was charged for an out-of-stock item. I'm waiting for the refund.	REFUND_PENDING
+D647	Requesting an update on a refund for a returned electronic device.	REFUND_PENDING
+D648	I cancelled my membership and I am expecting a refund for the unused period.	REFUND_PENDING
+D649	The refund for the damaged item I received is still outstanding.	REFUND_PENDING
+D650	The credit for my returned merchandise has not been posted to my account.	REFUND_PENDING
+D651	This charge was accidentally made twice and I am waiting for the refund of the second one.	REFUND_PENDING
+D652	My refund is taking much longer than the merchant's stated policy.	REFUND_PENDING
+D653	I have not been refunded for the part of my order that was not delivered.	REFUND_PENDING
+D654	Still no sign of the refund for my cancelled food delivery order.	REFUND_PENDING
+D655	The item was returned successfully. Awaiting refund.	REFUND_PENDING
+D656	I'm raising a dispute as the merchant has failed to refund me for a returned item.	REFUND_PENDING
+D657	I'm waiting for a credit to appear on my statement for a cancelled service.	REFUND_PENDING
+D658	The refund process for my returned shoes has been stuck for weeks.	REFUND_PENDING
+D659	I was told I would receive a full refund, which has not happened yet.	REFUND_PENDING
+D660	The merchant is delaying my refund without any valid reason.	REFUND_PENDING
+D661	The refund for the wrong item sent is still pending.	REFUND_PENDING
+D662	I was issued a credit note, but I requested a refund to my card. Still waiting.	REFUND_PENDING
+D663	This charge should have been reversed after I cancelled the booking.	REFUND_PENDING
+D664	Awaiting refund for a double charge incident from last week.	REFUND_PENDING
+D665	The rental agency owes me a refund for the deposit.	REFUND_PENDING
+D666	My return was accepted, but the refund is nowhere to be seen.	REFUND_PENDING
+D667	The seller marked the item as refunded, but the amount has not been credited.	REFUND_PENDING
+D668	It has been 15 days, and my refund is still being processed.	REFUND_PENDING
+D669	I am missing a refund from this merchant for a returned package.	REFUND_PENDING
+D670	The tour was cancelled due to weather, and I am waiting for the company to refund me.	REFUND_PENDING
+D671	How much longer do I have to wait for my money to be returned?	REFUND_PENDING
+D672	This is an inquiry about an overdue refund.	REFUND_PENDING
+D673	My refund for the unsatisfactory service has not been processed.	REFUND_PENDING
+D674	I returned the item using the provided shipping label. When do I get my refund?	REFUND_PENDING
+D675	The system automatically cancelled my order but the refund is not automatic.	REFUND_PENDING
+D676	The overcharged amount on my bill was supposed to be refunded.	REFUND_PENDING
+D677	I have been patiently waiting for a refund that was promised to me.	REFUND_PENDING
+D678	The merchant's customer service confirmed my refund but it has not arrived.	REFUND_PENDING
+D679	I am still waiting for the balance of my refund to be paid.	REFUND_PENDING
+D680	My money has been held for a cancelled order for too long.	REFUND_PENDING
+D681	I cancelled the service well within the refund period. Still waiting for the money.	REFUND_PENDING
+D682	The refund for my undelivered order has not been credited to my account.	REFUND_PENDING
+D683	This charge needs to be refunded as the item was sent back to the seller.	REFUND_PENDING
+D684	I want to know why my refund is taking so long.	REFUND_PENDING
+D685	The merchant keeps telling me the refund is 'on its way'.	REFUND_PENDING
+D686	I cancelled my pre-order and am now waiting for the refund.	REFUND_PENDING
+D687	Still awaiting reimbursement for a charge that should have been voided.	REFUND_PENDING
+D688	The product was returned and received by the warehouse. Where's my credit?	REFUND_PENDING
+D689	This is a formal dispute for a non-receipt of a promised refund.	REFUND_PENDING
+D690	My refund is stuck in processing according to the merchant's portal.	REFUND_PENDING
+D691	I sent the item back. What is the status of my credit?	REFUND_PENDING
+D692	The order was cancelled. When will the amount be reversed?	REFUND_PENDING
+D693	I was not satisfied with the purchase and returned it. I haven't seen the money back yet.	REFUND_PENDING
+D694	The merchant acknowledged my return request. How long until the money is back on my card?	REFUND_PENDING
+D695	The flight got cancelled. The airline issued a voucher but I want the money back.	REFUND_PENDING
+D696	I was overcharged for my meal. The manager said he would reverse the charge.	REFUND_PENDING
+D697	The package was returned to sender. I expect the charge to be removed.	REFUND_PENDING
+D698	My appointment was cancelled by the clinic. When can I expect the prepayment to be returned?	REFUND_PENDING
+D699	I'm writing about a charge for an item that I have already sent back.	REFUND_PENDING
+D700	The quality was very poor, so I returned it. I'm waiting for the amount to be credited.	REFUND_PENDING
+D701	My return tracking shows the item was delivered back to them last week.	REFUND_PENDING
+D702	I exercised my cooling-off rights and cancelled the contract. The initial payment has not been returned.	REFUND_PENDING
+D703	The company is not honouring its money-back guarantee.	REFUND_PENDING
+D704	I have a credit note from the merchant, but I need the amount back in my bank account.	REFUND_PENDING
+D705	The duplicate payment I made by mistake has not been returned yet.	REFUND_PENDING
+D706	My trip was cancelled due to the travel restrictions. I have applied for a refund.	REFUND_PENDING
+D707	The item didn't fit, so I mailed it back as per the instructions.	REFUND_PENDING
+D708	The concert was postponed indefinitely. The organizers said they would issue refunds.	REFUND_PENDING
+D709	I cancelled my subscription. What about the charge for the current month?	REFUND_PENDING
+D710	The product was not as described, so it was returned. I'm waiting for my money.	REFUND_PENDING
+D711	The hotel charged me a deposit that was supposed to be returned at check-out.	REFUND_PENDING
+D712	I refused the delivery because the box was damaged. The charge should be reversed.	REFUND_PENDING
+D713	The workshop was cancelled. The fee has not been returned.	REFUND_PENDING
+D714	The seller agreed to a return and refund, but has gone quiet since receiving the item.	REFUND_PENDING
+D715	I have an RMA number for my return. The amount has not been credited.	REFUND_PENDING
+D716	The initial transaction failed, but I was charged. The merchant then charged me again on a successful transaction. The first charge needs to be returned.	REFUND_PENDING
+D717	I'm following up on a credit that was supposed to be applied to my account.	REFUND_PENDING
+D718	The incorrect item was delivered and I sent it back.	REFUND_PENDING
+D719	My trial period ended and I cancelled, but I was charged for the full subscription.	REFUND_PENDING
+D720	The car rental company charged me for damages that I did not cause. They promised a reversal after investigation.	REFUND_PENDING
+D721	I returned the equipment as per my rental agreement. My deposit has not been returned.	REFUND_PENDING
+D722	The event did not take place. The charge for the ticket is still on my card.	REFUND_PENDING
+D723	I'm looking for a credit to offset this charge for a returned product.	REFUND_PENDING
+D724	The vet cancelled the procedure but my prepayment has not been returned.	REFUND_PENDING
+D725	My order was incomplete. The customer service agent said I would be credited for the missing items.	REFUND_PENDING
+D726	I am still waiting for the balance of my account to be returned after closing it.	REFUND_PENDING
+D727	The merchant made a billing error and promised a credit on my next statement. It is not there.	REFUND_PENDING
+D728	I've sent back the faulty hardware. The money has not been returned.	REFUND_PENDING
+D729	The store manager promised to void this transaction. It is still showing as posted.	REFUND_PENDING
+D730	My return was processed in-store and I was told the refund would be automatic.	REFUND_PENDING
+D731	This charge is for a service I cancelled the next day.	REFUND_PENDING
+D732	The delivery was never made, so I cancelled the order.	REFUND_PENDING
+D733	The company went out of business before providing the service I paid for.	REFUND_PENDING
+D734	I've been corresponding with the merchant about a return for weeks.	REFUND_PENDING
+D735	This charge was for a security deposit on a short-term lease. I have since moved out.	REFUND_PENDING
+D736	The second leg of my flight was cancelled. The airline owes me a partial refund.	REFUND_PENDING
+D737	I opted for store credit initially, but now I want a refund to my card as promised.	REFUND_PENDING
+D738	The item was recalled by the manufacturer. I returned it as instructed.	REFUND_PENDING
+D739	I have an email chain with the merchant agreeing to credit my account.	REFUND_PENDING
+D740	This charge should have been reversed when I returned the rental car with a full tank.	REFUND_PENDING
+D741	The product arrived too late, so I rejected the shipment.	REFUND_PENDING
+D742	The total charged was incorrect. I'm awaiting a credit for the difference.	REFUND_PENDING
+D743	The software did not work with my system. I have uninstalled it and requested my money back.	REFUND_PENDING
+D744	The tour operator cancelled my booking due to low numbers.	REFUND_PENDING
+D745	I returned this purchase to a physical store location. The refund has not appeared.	REFUND_PENDING
+D746	I was advised that a credit would be processed for the service outage.	REFUND_PENDING
+D747	This transaction was disputed and a provisional credit was issued, then reversed. The merchant still owes me the refund.	REFUND_PENDING
+D748	The final cost was lower than the pre-authorization hold. I am waiting for the difference.	REFUND_PENDING
+D749	My account is still showing this debit for a returned item.	REFUND_PENDING
+D750	This company is giving me the runaround about returning my money.	REFUND_PENDING
+D751	I cancelled the order within the 30-minute window.	REFUND_PENDING
+D752	The gift I bought was returned by the recipient.	REFUND_PENDING
+D753	The subscription renewal was processed after I had already cancelled it.	REFUND_PENDING
+D754	The plumber couldn't fix the issue, but charged me anyway. He said he would refund it.	REFUND_PENDING
+D755	My account was debited for a book that was never dispatched.	REFUND_PENDING
+D756	The course was not what was advertised. I have withdrawn and requested my fee back.	REFUND_PENDING
+D757	This is the charge for a deposit on a venue which has now been cancelled.	REFUND_PENDING
+D758	I have a receipt for the return of this item.	REFUND_PENDING
+D759	The item was damaged in transit and I have sent it back.	REFUND_PENDING
+D760	The hotel changed my booking and promised a partial credit for the inconvenience.	REFUND_PENDING
+D761	The merchant and I have agreed to cancel this transaction.	REFUND_PENDING
+D762	I'm still in discussion with the seller about the poor quality of the goods. They mentioned a refund.	REFUND_PENDING
+D763	This transaction relates to a service that was not performed to a satisfactory standard.	REFUND_PENDING
+D764	The company has issued a 'refund pending' status on my account for over a month.	REFUND_PENDING
+D765	The service was discontinued by the provider, and my account needs to be credited.	REFUND_PENDING
+D766	This was a pre-payment for a job that was never started.	REFUND_PENDING
+D767	I have an open ticket with the merchant's support team regarding this charge.	REFUND_PENDING
+D768	The resolution for my complaint was a credit to my account, which has not been applied.	REFUND_PENDING
+D769	The item was not authentic. I have returned it and am expecting my money back.	REFUND_PENDING
+D770	The provider is in breach of contract. I have terminated the agreement.	REFUND_PENDING
+D771	This transaction was for a deposit on an apartment I did not end up renting.	REFUND_PENDING
+D772	I've reached out to the merchant multiple times about this issue.	REFUND_PENDING
+D773	This charge is for a custom order that the merchant was unable to fulfill.	REFUND_PENDING
+D774	My return shipment seems to be lost, but the insurance should cover a refund.	REFUND_PENDING
+D775	The company's insolvency administrator said they would be processing refunds.	REFUND_PENDING
+D776	The goods were not fit for purpose and I have since disposed of them as instructed.	REFUND_PENDING
+D777	This charge is for a service contract that I have cancelled due to non-performance.	REFUND_PENDING
+D778	I'm escalating this issue as the merchant is not complying with their own refund policy.	REFUND_PENDING
+D779	The 'money-back guarantee' has not been honoured by the seller.	REFUND_PENDING
+D780	I have written proof from the seller that this charge would be reversed.	REFUND_PENDING
+D781	This payment was for a holiday package that has now been cancelled by the operator.	REFUND_PENDING
+D782	The digital product key was invalid. The seller promised to sort it out.	REFUND_PENDING
+D783	The chargeback I initiated was closed, but the merchant had already agreed to refund me separately.	REFUND_PENDING
+D784	This charge is for an annual fee for a card I have already cancelled.	REFUND_PENDING
+D785	The business has closed down and I need to get my money back for the undelivered goods.	REFUND_PENDING
+D786	The agreed-upon discount was not applied to the transaction. I was told the difference would be credited.	REFUND_PENDING
+D787	This was a holding deposit for an item that I decided not to purchase in the end.	REFUND_PENDING
+D788	The terms of sale stated a refund would be provided if the item was not as described. It wasn't.	REFUND_PENDING
+D789	My account was credited, but then the credit was inexplicably reversed.	REFUND_PENDING
+D790	The seller has stopped replying to my emails after I returned the defective item.	REFUND_PENDING
+D791	I was charged a cancellation fee that should have been waived.	REFUND_PENDING
+D792	The item was part of a buy-one-get-one-free offer. I returned the paid item.	REFUND_PENDING
+D793	This charge relates to an ongoing dispute that I have with the service provider.	REFUND_PENDING
+D794	The repair was unsuccessful, and the shop's policy is to not charge for that.	REFUND_PENDING
+D795	The legal proceedings concluded that I am owed this amount back from the merchant.	REFUND_PENDING
+D796	I have been trying to resolve this with the merchant for a very long time.	REFUND_PENDING
+D797	The item arrived with parts missing. The seller offered a partial credit.	REFUND_PENDING
+D798	This was a goodwill gesture promised by a manager that has not materialized.	REFUND_PENDING
+D799	I am invoking my statutory rights to a refund for this faulty product.	REFUND_PENDING
+D800	The difference between the estimated cost and the final cost is supposed to be returned.	REFUND_PENDING
+D801	This was for a class that was cancelled due to low enrollment.	REFUND_PENDING
+D802	The credit adjustment promised for the billing error has not appeared.	REFUND_PENDING
+D803	I cancelled this order but was persuaded to accept a voucher, which I do not want.	REFUND_PENDING
+D804	The project was abandoned and the contractor agreed to return my initial payment.	REFUND_PENDING
+D805	This amount should have been returned to my account automatically.	REFUND_PENDING
+D806	I'm dissatisfied with the outcome of my complaint to the merchant.	REFUND_PENDING
+D807	The item is not compatible with my other devices as was advertised.	REFUND_PENDING
+D808	I am still waiting for the pro-rated credit after downgrading my plan.	REFUND_PENDING
+D809	This fee should have been refunded as I met the waiver conditions.	REFUND_PENDING
+D810	The merchant's system for processing returns seems to be broken.	REFUND_PENDING
+D811	I have a reference number for my refund request.	REFUND_PENDING
+D812	The trader is legally obligated to return my money in this situation.	REFUND_PENDING
+D813	My complaint to the ombudsman resulted in a decision that I should be refunded.	REFUND_PENDING
+D814	The price dropped right after I bought the item, and I was promised a price adjustment credit.	REFUND_PENDING
+D815	The service did not deliver the promised results.	REFUND_PENDING
+D816	I'm stuck in a loop with customer service about this payment.	REFUND_PENDING
+D817	This charge is associated with a returned item that seems to have been misplaced by the merchant.	REFUND_PENDING
+D818	The seller's return portal has been down for weeks.	REFUND_PENDING
+D819	This was a deposit for a product that is now on backorder indefinitely.	REFUND_PENDING
+D820	The promised cashback on this purchase was never applied.	REFUND_PENDING
+D821	The amount charged is incorrect. It should have been for a lower amount.	OTHERS
+D822	I was charged in the wrong currency, leading to a higher bill.	OTHERS
+D823	The ATM dispensed less cash than the amount I requested and was debited for.	OTHERS
+D824	My NEFT transfer was credited to the wrong beneficiary account.	OTHERS
+D825	I don't recognize the merchant's name on my statement, but the amount looks familiar.	OTHERS
+D826	The cashier charged me for an item I did not purchase.	OTHERS
+D827	This is a payment I made to my credit card, but it's not reflecting on my bill.	OTHERS
+D828	The tip amount added to the restaurant bill is wrong.	OTHERS
+D829	Can you provide more details about this transaction? The description is too vague.	OTHERS
+D830	The ATM captured my card. This charge is related to that incident.	OTHERS
+D831	My payment was sent to the wrong person's phone number by mistake.	OTHERS
+D832	This is a recurring payment for a service, but the amount has suddenly increased without notice.	OTHERS
+D833	I was charged a cash advance fee for a transaction that was not a cash advance.	OTHERS
+D834	I was billed for a higher subscription tier than the one I signed up for.	OTHERS
+D835	The discount that was promised at checkout was not applied to the final charge.	OTHERS
+D836	This transaction should have been processed as a credit, not a debit.	OTHERS
+D837	The tax calculated on this purchase is incorrect.	OTHERS
+D838	The hotel charged me for mini-bar items that I did not consume.	OTHERS
+D839	I need a copy of the charge slip for this transaction for my records.	OTHERS
+D840	The final amount is different from the pre-authorization amount.	OTHERS
+D841	I am being charged for a service that was supposed to be free.	OTHERS
+D842	This payment was meant for a different biller.	OTHERS
+D843	The merchant charged me for 10 items, but I only bought 2.	OTHERS
+D844	This is a credit from a merchant that has not been applied to my account balance.	OTHERS
+D845	My automatic payment was for the wrong amount this month.	OTHERS
+D846	I have a query about the exchange rate used for this international transaction.	OTHERS
+D847	The rental car company has billed me for extra mileage I did not incur.	OTHERS
+D848	I cancelled this in-app purchase immediately, but the charge remains.	OTHERS
+D849	The payment was made to my old account number which is now closed.	OTHERS
+D850	I am being billed for a subscription that belongs to a family member, not me.	OTHERS
+D851	The ATM did not dispense a receipt, and I think the charge is wrong.	OTHERS
+D852	I'm inquiring about a 'service fee' that was added to my bill. What is it for?	OTHERS
+D853	The amount debited from my account does not match my receipt.	OTHERS
+D854	This charge is from a merchant I use, but I don't remember making this specific purchase.	OTHERS
+D855	The airline has charged me for baggage that should have been included in my fare.	OTHERS
+D856	I topped up my travel card, but the balance has not been updated.	OTHERS
+D857	I paid this bill via another method, so this automatic debit should not have happened.	OTHERS
+D858	This transaction has been posted with the wrong date.	OTHERS
+D859	The merchant is billing me for a period after my contract had expired.	OTHERS
+D860	I made a payment to clear my balance, but I am still being charged interest.	OTHERS
+D861	The amount was debited from my account but the recipient's name is wrong.	OTHERS
+D862	I have a question about the breakdown of charges for this hotel stay.	OTHERS
+D863	The loyalty points I used for this purchase were not applied correctly.	OTHERS
+D864	This payment was applied to the wrong invoice by the merchant.	OTHERS
+D865	I was charged for a full month of service, but I only signed up mid-month.	OTHERS
+D866	This transaction is coded incorrectly, affecting my expense report.	OTHERS
+D867	The currency of this transaction is wrong. It should be in EUR, not GBP.	OTHERS
+D868	My deposit for the rental was not returned in full.	OTHERS
+D869	The item was on sale, but I was charged the full price.	OTHERS
+D870	The amount on the printed receipt is different from what is on my statement.	OTHERS
+D871	I am being charged a late fee, but I paid my bill on time.	OTHERS
+D872	The charge is for a different service than the one I requested.	OTHERS
+D873	This credit was supposed to be for a larger amount.	OTHERS
+D874	The merchant swiped my card for the wrong table's bill.	OTHERS
+D875	I'm being charged for an extended warranty that I declined.	OTHERS
+D876	This debit is for the wrong policy number.	OTHERS
+D877	The merchant's name appears as a series of numbers and letters, I can't identify it.	OTHERS
+D878	The installment amount for my EMI is incorrect this month.	OTHERS
+D879	I am disputing the quantity of the items I was billed for.	OTHERS
+D880	This transaction should have been tax-exempt.	OTHERS
+D881	The payment was for my friend, but it was deducted from my account.	OTHERS
+D882	I paid a bill, but the provider says they have no record of it and are still demanding payment.	OTHERS
+D883	There are hidden fees in this transaction that were not disclosed.	OTHERS
+D884	I was given a quote for one price, but have been billed for another.	OTHERS
+D885	The cashback reward for this purchase has not been credited to my account.	OTHERS
+D886	I want to understand why there are two separate charges from this one merchant on the same day.	OTHERS
+D887	This payment was sent with the wrong reference number.	OTHERS
+D888	I have been charged a membership fee for an account I closed last year.	OTHERS
+D889	The final charge on my card is higher than the amount I signed for on the receipt.	OTHERS
+D890	This transaction is for a product I received, but it's a different model than I ordered.	OTHERS
+D891	The quality of the service provided was extremely poor. This is not what I paid for.	OTHERS
+D892	The item I received is a cheap counterfeit, not the genuine product advertised.	OTHERS
+D893	I'm disputing the quality of the goods. They arrived damaged.	OTHERS
+D894	The repair work I paid for was not completed correctly and the problem persists.	OTHERS
+D895	The product stopped working just after a few days. The merchant is not helping.	OTHERS
+D896	The service rendered was not as described in the advertisement.	OTHERS
+D897	I am unhappy with this purchase and the merchant is refusing to accept a return.	OTHERS
+D898	The car rental had several issues that were not disclosed at the time of booking.	OTHERS
+D899	I believe this merchant is engaging in deceptive advertising practices.	OTHERS
+D900	The consultant I hired did not provide the deliverable we agreed upon.	OTHERS
+D901	This charge is for a digital course that was of very low quality and contained no useful information.	OTHERS
+D902	The hotel room was not clean and did not have the amenities that were promised.	OTHERS
+D903	I want to dispute this charge on the grounds of non-delivery of service.	OTHERS
+D904	The food at the restaurant made me sick. I am disputing the charge for the meal.	OTHERS
+D905	The item delivered is a completely different color from what was shown on the website.	OTHERS
+D906	I am challenging this transaction because the merchant is not honoring the product's warranty.	OTHERS
+D907	The software I purchased is full of bugs and is unusable.	OTHERS
+D908	This payment was for a contractor who left the job unfinished.	OTHERS
+D909	I received an empty box instead of the product I ordered.	OTHERS
+D910	The tour was very disappointing and the guide was unprofessional.	OTHERS
+D911	The "premium" service I paid for is no different from the free version.	OTHERS
+D912	I am in a dispute with the merchant over the terms of the contract.	OTHERS
+D913	The product specifications are not what was listed on the seller's page.	OTHERS
+D914	I've been trying to resolve this issue with the merchant's customer service with no luck.	OTHERS
+D915	This charge is related to a subscription that is extremely difficult to cancel.	OTHERS
+D916	The item is much smaller than it appeared in the pictures online.	OTHERS
+D917	I am not satisfied with the resolution the merchant has offered for my complaint.	OTHERS
+D918	The cleaning service I paid for did a very superficial job.	OTHERS
+D919	The merchant is not responding to my requests to fix the faulty item they sent me.	OTHERS
+D920	I am raising this dispute because the service was not rendered in a professional manner.	OTHERS
+D921	The event I paid for was not what was advertised and was a waste of money.	OTHERS
+D922	The holiday package did not include many of the things that were promised.	OTHERS
+D923	The item I received seems to be a used or refurbished product, not a new one.	OTHERS
+D924	I am disputing this charge due to a misrepresentation of the service offered.	OTHERS
+D925	The installation of the appliance was done incorrectly, causing damage.	OTHERS
+D926	I feel I was misled by the salesperson into making this purchase.	OTHERS
+D927	The merchant will not provide an invoice or receipt for this transaction.	OTHERS
+D928	The parts used for my car repair were not genuine as promised.	OTHERS
+D929	This charge is for a membership that does not provide the benefits that were advertised.	OTHERS
+D930	I have a complaint about the conduct of the staff during the service I paid for.	OTHERS
+D931	The 'unlimited' plan I paid for has a lot of hidden restrictions.	OTHERS
+D932	The product is not compatible with my system, despite the seller's claims.	OTHERS
+D933	I'm disputing this transaction because the merchant has gone out of business.	OTHERS
+D934	The custom-made item I ordered was not made to the specifications I provided.	OTHERS
+D935	The educational material I paid for is outdated and plagiarized.	OTHERS
+D936	This charge is for a home service where the worker showed up late and left early.	OTHERS
+D937	I have been trying to get a resolution on this for months.	OTHERS
+D938	The boat tour was cancelled due to weather, but the company is refusing a full refund.	OTHERS
+D939	I'm disputing this because the merchant is refusing to cooperate.	OTHERS
+D940	The item has a major defect that was not mentioned in the description.	OTHERS
+D941	I am unhappy with the service and wish to lodge a formal complaint.	OTHERS
+D942	The seller sent a product that is about to expire.	OTHERS
+D943	The legal advice I paid for was incorrect and caused further issues.	OTHERS
+D944	The "lifetime access" I paid for has been revoked.	OTHERS
+D945	I am disputing this payment due to the abysmal service quality.	OTHERS
+D946	The merchant is violating consumer protection laws.	OTHERS
+D947	This is a final attempt to resolve this before I take further action.	OTHERS
+D948	The furniture delivered is of a much lower quality than the one in the showroom.	OTHERS
+D949	I was pressured into buying this service and now regret it.	OTHERS
+D950	The language course I enrolled in was taught by an unqualified teacher.	OTHERS
+D951	I am disputing the charge for this online game as it is full of glitches.	OTHERS
+D952	The merchant's "satisfaction guarantee" is proving to be false.	OTHERS
+D953	This charge is for a delivery that was left in an unsafe location and was stolen.	OTHERS
+D954	The vehicle I rented broke down in the middle of my trip.	OTHERS
+D955	The merchant is trying to enforce an unfair term in their contract.	OTHERS
+D956	I have photographic evidence that the product I received is not what I ordered.	OTHERS
+D957	The caterer for my event provided a very poor service.	OTHERS
+D958	This charge is for a download that failed to install properly.	OTHERS
+D959	The online review for this product were fake, I feel I was scammed.	OTHERS
+D960	I am raising this issue as the merchant's resolution was not acceptable.	OTHERS
+D961	I have an ongoing and unresolved issue with this particular merchant.	OTHERS
+D962	This transaction is related to a complex billing error that needs investigation.	OTHERS
+D963	I am not liable for this charge as per my agreement with the service provider.	OTHERS
+D964	The circumstances surrounding this payment are highly unusual.	OTHERS
+D965	I was charged this amount under duress.	OTHERS
+D966	This payment is part of a larger dispute that is now in mediation.	OTHERS
+D967	The merchant has changed their terms of service retroactively to justify this charge.	OTHERS
+D968	This transaction was made from a joint account without my consent for the purchase.	OTHERS
+D969	I am invoking a clause in my contract that allows me to dispute this payment.	OTHERS
+D970	The company charged me, but they have violated the service level agreement.	OTHERS
+D971	This is a payment for a service that I believe is being offered illegally.	OTHERS
+D972	I'm challenging this transaction based on legal advice I have received.	OTHERS
+D973	This charge is related to a family dispute and was not an authorized commercial transaction.	OTHERS
+D974	The merchant is holding me responsible for a system error on their end.	OTHERS
+D975	I have reason to believe this merchant is currently under investigation for their business practices.	OTHERS
+D976	The nature of this transaction is not what it appears to be.	OTHERS
+D977	This charge violates the terms and conditions that I originally signed up to.	OTHERS
+D978	I have a court order related to payments to this company.	OTHERS
+D979	The company is trying to charge me for a cancellation, but they were the ones who cancelled.	OTHERS
+D980	This transaction was made under false pretenses.	OTHERS
+D981	There's a conflict of interest in this transaction that I was not aware of at the time.	OTHERS
+D982	I have since discovered that this company does not have the required license to provide this service.	OTHERS
+D983	The merchant has not complied with data protection regulations, leading to this issue.	OTHERS
+D984	This transaction is a breach of the verbal agreement I had with the vendor.	OTHERS
+D985	The charge is for an automatic renewal that I was not properly notified of.	OTHERS
+D986	I am withholding payment due to the merchant's failure to meet their obligations.	OTHERS
+D987	This payment is being disputed as part of an insurance claim.	OTHERS
+D988	I was misled about the total cost of the service, which was revealed only after I paid.	OTHERS
+D989	The transaction was processed after I had explicitly withdrawn my authorization.	OTHERS
+D990	This is a complicated matter. Can someone call me to discuss the details?	OTHERS
+D991	I am disputing this on principle. The merchant's behavior has been unethical.	OTHERS
+D992	This charge is for a service that I could not use due to external circumstances beyond my control.	OTHERS
+D993	The power of attorney I have does not authorize this type of payment.	OTHERS
+D994	The business is making it impossible for me to use the service I paid for.	OTHERS
+D995	This transaction is tied to a fraudulent company, but the charge itself was one I initiated before I knew.	OTHERS
+D996	I was charged for a service that was provided to another person, not me.	OTHERS
+D997	The contractual agreement has been frustrated, and I am therefore not liable for this payment.	OTHERS
+D998	This payment was made on the basis of misleading information provided by the merchant.	OTHERS
+D999	I am disputing this charge as part of a larger complaint filed with a regulatory body.	OTHERS
+D1000	The company's actions have caused me significant financial loss beyond this single transaction.	OTHERS
+D1001	This charge is related to a property settlement that has now been legally superseded.	OTHERS
+D1002	The debit was made without the proper authentication process being followed.	OTHERS
+D1003	I am disputing the legitimacy of the debt that this payment is for.	OTHERS
+D1004	This is a recurring payment that I have tried to cancel multiple times to no avail.	OTHERS
+D1005	The charge appeared after I had closed my account with the merchant.	OTHERS
+D1006	I have a dispute with my landlord regarding this rental payment.	OTHERS
+D1007	The payee for this transaction is not the entity I intended to pay.	OTHERS
+D1008	This transaction is for a service that is in violation of local laws.	OTHERS
+D1009	The merchant is attempting to enforce a penalty clause that is unfair and unlawful.	OTHERS
+D1010	I'm disputing this because the transaction details were altered after I made the payment.	OTHERS
+D1011	The service was not what I requested, but the merchant is claiming it was.	OTHERS
+D1012	This payment was made to a third-party seller on a platform, and the platform is not helping.	OTHERS
+D1013	I've been passed between the merchant and the payment processor, with neither taking responsibility.	OTHERS
+D1014	This is for a service I was told was included in another package I had already paid for.	OTHERS
+D1015	The merchant did not adhere to the agreed payment schedule.	OTHERS
+D1016	I am the victim of a bait-and-switch.	OTHERS
+D1017	This charge is part of a complex billing arrangement that has been mismanaged.	OTHERS
+D1018	The fine print of the contract was misleading.	OTHERS
+D1019	I have a complaint about this transaction that I have already filed with the Better Business Bureau.	OTHERS
+D1020	This is a very frustrating situation and I need someone to look into it carefully.	OTHERS
+D1049   I never signed up for this subscription service. They took my money without permission. FRAUD
+D1050   The airline cancelled my flight and I am still waiting for the refund they promised. REFUND_PENDING
+D1051   The merchant confirmed my return was delivered back to them, but my account has not been credited. REFUND_PENDING
+D1052 It has been 3 weeks since I returned the faulty item. Where is my refund? REFUND_PENDING
+D1053 I cancelled my hotel booking well in advance. Still waiting for the refund. REFUND_PENDING
+D1054 A refund for a cancelled concert has been pending for over a month now. REFUND_PENDING
+D1055 I was charged for a product that was on sale, but the discount was not applied. OTHERS
+D1056 The ATM did not dispense cash but my account was debited for the full amount. OTHERS
+D1057 I am disputing the extra 'service charge' that was added to my bill without my knowledge. OTHERS
+D1058 The item delivered was a cheap fake, not the genuine article I paid for. OTHERS
+D1059 The final amount is higher than what was shown on the payment screen. OTHERS
+D1060 I was double charged for my coffee this morning. DUPLICATE_CHARGE
+D1061 The payment was for my monthly insurance, but it was deducted twice. DUPLICATE_CHARGE
+D1062 My UPI payment was debited twice for a single QR scan. DUPLICATE_CHARGE
+D1063 I have two identical charges from the same gas station from the same day. DUPLICATE_CHARGE
+D1064 A single online order has resulted in two charges on my credit card. DUPLICATE_CHARGE
+D1065 My payment showed 'failed' but the money was taken from my account. FAILED_TRANSACTION
+D1066 The transaction did not complete, but the amount has not been reversed yet. FAILED_TRANSACTION
+D1067 I got an error message, but the amount was still deducted. The merchant has no record of it. FAILED_TRANSACTION
+D1068 My transfer to a friend failed, but the funds have not been returned to my balance. FAILED_TRANSACTION
+D1069 Debited for an online payment that did not go through. FAILED_TRANSACTION
+D1070 This transaction was made in a city I have never visited. I believe my card was cloned. FRAUD
+D1071 I received a suspicious OTP request, and then this fraudulent transaction occurred. FRAUD
+D1072 My wallet was stolen, and these charges appeared on my card soon after. FRAUD
+D1073 I did not authorize this payment to an overseas gaming company. FRAUD
+D1074 This is a fraudulent charge from a website I have never heard of. FRAUD
+D1075 I was promised a refund for an undelivered item. It is still pending. REFUND_PENDING
+D1076 The returned goods were received by the seller, but no refund has been initiated. REFUND_PENDING
+D1077 My security deposit has not been returned after I moved out. REFUND_PENDING
+D1078 I am waiting for a credit for a service that was cancelled by the provider. REFUND_PENDING
+D1079 The refund for my returned clothes is taking much longer than their policy states. REFUND_PENDING
+D1080 The ATM dispensed only half the amount I requested, but debited the full sum. OTHERS
+D1081 I was billed in USD instead of my local currency, resulting in a much higher charge. OTHERS
+D1082 The service quality was abysmal and not worth the amount I paid. OTHERS
+D1083 The merchant charged me for an annual plan when I only signed up for a monthly one. OTHERS
+D1084 The tip amount I entered on the machine is different from what I was charged. OTHERS
+D1085 I see two charges for the same taxi ride in my app history. DUPLICATE_CHARGE
+D1086 My EMI was deducted on the 5th and then again on the 7th of the month. DUPLICATE_CHARGE
+D1087 I think the cashier swiped my card twice by mistake. DUPLICATE_CHARGE
+D1088 A recurring donation was processed two times in the same month. DUPLICATE_CHARGE
+D1089 The website was slow, so I refreshed and it looks like I was billed twice. DUPLICATE_CHARGE
+D1090 Payment failed due to a server error, but the amount was debited and not returned. FAILED_TRANSACTION
+D1091 The money was debited but the beneficiary's account was not credited. FAILED_TRANSACTION
+D1092 The transaction is stuck in a 'pending' state and the recipient has not been paid. FAILED_TRANSACTION
+D1093 My account was charged, but the order was not placed due to a website error. FAILED_TRANSACTION
+D1094 A failed ATM withdrawal resulted in a debit on my account. FAILED_TRANSACTION
+D1095 My account was hacked and this unauthorized UPI transfer was made. FRAUD
+D1096 I clicked on a phishing link and then noticed this strange transaction. FRAUD
+D1097 I have never purchased anything from this merchant. This is a fraudulent charge. FRAUD
+D1098 My new credit card was used before I even received it in the mail. FRAUD
+D1099 Someone has set up a recurring payment on my card without my knowledge. FRAUD
+D1100 The order was cancelled due to no stock, still waiting for the money to be returned. REFUND_PENDING
+D1101 I returned a defective product and the merchant agreed to a refund, which is still pending. REFUND_PENDING
+D1102 I have an email confirmation of my refund, but the money is not in my bank. REFUND_PENDING
+D1103 My subscription was cancelled, but the refund for the remaining term is not here. REFUND_PENDING
+D1104 I am still waiting for the money from a returned online purchase. REFUND_PENDING
+D1105 I was charged for a large pizza but only received a small one. OTHERS
+D1106 The item was supposed to be free shipping, but I was charged a shipping fee. OTHERS
+D1107 The product I received is a different, cheaper model than the one I ordered. OTHERS
+D1108 The repair service I paid for did not fix the problem. OTHERS
+D1109 The merchant's name on my statement is different from the shop I was in. OTHERS
+D1110 My wife and I both paid the same bill by mistake. I need one payment reversed. DUPLICATE_CHARGE
+D1111 A single purchase appears twice in my recent transactions list. DUPLICATE_CHARGE
+D1112 The app crashed and took the payment for my order twice. DUPLICATE_CHARGE
+D1113 My monthly membership fee was deducted two times this cycle. DUPLICATE_CHARGE
+D1114 I was charged for a parking session, and then charged the exact same amount again a minute later. DUPLICATE_CHARGE
+D1115 The payment gateway showed an error, but the debit appears on my card statement. FAILED_TRANSACTION
+D1116 Money was deducted, but my mobile recharge was not successful. FAILED_TRANSACTION
+D1117 My transfer is marked as 'failed' but the amount has not been credited back. FAILED_TRANSACTION
+D1118 I was charged but the booking was not confirmed due to a system timeout. FAILED_TRANSACTION
+D1119 The payment did not go through to the merchant, however, the amount was taken from me. FAILED_TRANSACTION
+D1120 I don't recognize this charge. I suspect my details were stolen from a recent data breach. FRAUD
+D1121 This is a fraudulent withdrawal from an ATM in a location I have not been to. FRAUD
+D1122 My phone was stolen, and the thief made this UPI payment. FRAUD
+D1123 I received an alert for this transaction while I was sleeping. It was not me. FRAUD
+D1124 This charge is for a 'free trial' that I cancelled before the billing date. FRAUD
+D1125 The merchant cancelled my order. Why has the charge not been refunded yet? REFUND_PENDING
+D1126 The refund for my returned jacket has been pending for 20 days. REFUND_PENDING
+D1127 I was overcharged for a taxi ride and the driver promised a refund which has not come. REFUND_PENDING
+D1128 I am still waiting for the credit for the part of my order that was missing. REFUND_PENDING
+D1129 My flight was cancelled and I am still chasing the airline for my money. REFUND_PENDING
+D1130 The hotel has charged me for damages that were already there when I checked in. OTHERS
+D1131 The item I received is not authentic. I am disputing the charge. OTHERS
+D1132 I was charged a no-show fee for an appointment that I had cancelled in advance. OTHERS
+D1133 The price on the shelf was different from the price I was charged at the till. OTHERS
+D1134 I was billed for an entire year when I wanted to pay monthly. OTHERS
+D1135 I have two identical debits for my electricity bill this month. DUPLICATE_CHARGE
+D1136 The exact same amount was charged to my card twice in a row at the cafe. DUPLICATE_CHARGE
+D1137 My rent payment was processed twice by the payment portal. DUPLICATE_CHARGE
+D1138 I tapped my card, it was declined, so I used chip and PIN. Now both are charged. DUPLICATE_CHARGE
+D1139 A single online purchase resulted in two identical pending transactions. DUPLICATE_CHARGE
+D1140 My NEFT transfer failed due to server issues, but the amount is still debited. FAILED_TRANSACTION
+D1141 The transaction was unsuccessful, but a hold for the amount was placed on my card. FAILED_TRANSACTION
+D1142 The beneficiary bank rejected the payment, but the money is not back in my account. FAILED_TRANSACTION
+D1143 My account was charged but the merchant's system shows the order as 'cancelled'. FAILED_TRANSACTION
+D1144 The debit for my failed attempt to pay a bill has not been reversed. FAILED_TRANSACTION
+D1145 I don't know this company. This transaction is fraudulent. Please block my card. FRAUD
+D1146 My card details were compromised and used on this foreign website. FRAUD
+D1147 I did not make this purchase. It happened while my card was safely at home with me. FRAUD
+D1148 Someone used my card for a series of small, suspicious online ads. FRAUD
+D1149 This payment was made after I had already reported my card lost to the bank. FRAUD
+D1150 I returned the product via courier, and I have the tracking number. The refund is still pending. REFUND_PENDING
+D1151 The merchant has ceased trading, and I am still waiting for a refund for undelivered goods. REFUND_PENDING
+D1152 I'm waiting for a refund that was promised as a goodwill gesture by the manager. REFUND_PENDING
+D1153 The event I had tickets for was cancelled. No refund has been issued yet. REFUND_PENDING
+D1154 I am still awaiting a refund for a duplicate charge from last month's statement. REFUND_PENDING
+D1155 I was charged for a service call, even though the technician could not fix the appliance. OTHERS
+D1156 The product is not fit for purpose and I am disputing the charge. OTHERS
+D1157 I am being charged a subscription fee for an account I deleted. OTHERS
+D1158 The rental car company billed me for a scratch that was already documented. OTHERS
+D1159 The 'buy one get one free' offer was not applied, and I was charged for both items. OTHERS
+D1160 The system double-charged my card for an annual software license. DUPLICATE_CHARGE
+D1161 My credit card was charged twice for the same meal. DUPLICATE_CHARGE
+D1162 I can see two payments for my one phone bill. DUPLICATE_CHARGE
+D1163 The POS machine was rebooted and my card was swiped again, causing a double charge. DUPLICATE_CHARGE
+D1164 I paid for one item but have been charged for it twice. DUPLICATE_CHARGE
+D1165 The money was debited but the bill payment status is still 'unpaid'. FAILED_TRANSACTION
+D1166 I have a debit on my account for a transaction that did not go through successfully. FAILED_TRANSACTION
+D1167 The merchant's website crashed, but not before taking my money for a failed order. FAILED_TRANSACTION
+D1168 The funds were taken but the international transfer did not complete. FAILED_TRANSACTION
+D1169 My payment for school fees failed, but the amount was deducted from my savings account. FAILED_TRANSACTION
+D1170 I would never shop at this website. This charge is a clear case of fraud. FRAUD
+D1171 This transaction looks highly suspicious, I did not authorize it. FRAUD
+D1172 I've been a victim of a SIM swap, leading to this fraudulent UPI payment. FRAUD
+D1173 The merchant name is fake and I was scammed into this payment. FRAUD
+D1174 I am still waiting for my money back from a purchase I returned over a month ago. REFUND_PENDING
+D1175 The refund for the cancelled order has not been processed by the merchant. REFUND_PENDING
+D1176 The credit for my returned item is taking an unreasonable amount of time. REFUND_PENDING
+D1177 I was told the refund would be instant, but it's been days. REFUND_PENDING
+D1178 The service I received was incomplete and not what I agreed to. OTHERS
+D1179 The amount charged is different from the amount on the invoice. OTHERS
+D1180 I am disputing this charge as the goods were delivered in a damaged condition. OTHERS
+D1181 A 'convenience fee' was added to my transaction that I did not agree to. OTHERS
+D1182 I have two identical charges from my cloud storage provider this month. DUPLICATE_CHARGE
+D1183 My card was accidentally charged twice for one round of drinks. DUPLICATE_CHARGE
+D1184 An error in the app caused my payment to be submitted twice. DUPLICATE_CHARGE
+D1185 My bank statement shows two debits for a single purchase. DUPLICATE_CHARGE
+D1186 The transaction failed but the amount was blocked from my available credit. FAILED_TRANSACTION
+D1187 I was debited but the beneficiary did not receive the money due to a technical error. FAILED_TRANSACTION
+D1188 The payment was rejected by the merchant's bank, but the funds have not returned. FAILED_TRANSACTION
+D1189 The payment portal froze and I was charged even though the transaction was not confirmed. FAILED_TRANSACTION
+D1190 My card was used for an in-app purchase that I never made. It's my child. FRAUD
+D1191 This is a fraudulent charge. I want to report it and get a new card. FRAUD
+D1192 The merchant is unknown and the transaction time/location is impossible for me. FRAUD
+D1193 I'm still waiting on a refund for a concert that was cancelled. REFUND_PENDING
+D1194 My return was accepted in-store, but the refund has yet to appear on my statement. REFUND_PENDING
+D1195 The seller agreed to credit my account for a partial refund, but hasn't. REFUND_PENDING
+D1196 I paid for express delivery, but the item arrived late. The merchant is refusing to refund the shipping fee. OTHERS
+D1197 The product I received is significantly different from its online description. OTHERS
+D1198 I am being charged for extra services that I explicitly declined at the hotel. OTHERS
+D1199 My auto-debit and a manual payment for my loan have both gone through. DUPLICATE_CHARGE
+D1200 I have two charges for the same amount, from the same vendor, with timestamps that are one second apart. DUPLICATE_CHARGE
+D1201 The booking website charged my card, and the hotel also charged my card for the same stay. DUPLICATE_CHARGE
+D1202 My payment failed, but the amount has been deducted. I tried again, and it was deducted again. DUPLICATE_CHARGE
+D1203 My account was charged but the investment order was not placed. FAILED_TRANSACTION
+D1204 The transaction failed due to incorrect beneficiary details, but the money is gone. FAILED_TRANSACTION
+D1205 I was debited but the service I paid for was not activated due to a system issue. FAILED_TRANSACTION
+D1206 This charge appeared on my statement from a company I have never dealt with. FRAUD
+D1207 My card was used to buy something online while I was on a flight with no internet. FRAUD
+D1208 The security on my account was breached, leading to this unauthorized payment. FRAUD
+D1209 I have a credit memo from the merchant but the credit has not reflected on my card. REFUND_PENDING
+D1210 The refund for the out-of-stock item in my order is still pending. REFUND_PENDING
+D1211 I'm waiting for a refund for a service that was cancelled by the provider due to unforeseen circumstances. REFUND_PENDING
+D1212 I paid my bill, but am still being charged a late payment fee. OTHERS
+D1213 The warranty for the product I bought is not being honored by the merchant. OTHERS
+D1214 The subscription was renewed at a higher price without any prior notification. OTHERS
+D1215 My auto-recharge processed twice on the same day. DUPLICATE_CHARGE
+D1216 The website gave a 504 error, so I tried again. Now I have two charges. DUPLICATE_CHARGE
+D1217 A payment for my order was taken, and then an identical payment was taken when it shipped. DUPLICATE_CHARGE
+D1218 The transaction status says 'error', but my account has been debited. FAILED_TRANSACTION
+D1219 The payment seems to be lost in transit. My account is debited but the merchant was not paid. FAILED_TRANSACTION
+D1220 I was debited but the recipient's VPA is invalid, so the payment should have failed and returned. FAILED_TRANSACTION
+D1221 I received a text message from a scammer and this charge appeared right after. FRAUD
+D1222 This is a fraudulent renewal of a service I cancelled and disputed last year. FRAUD
+D1223 I lost my phone and the finder used my stored card details to make this payment. FRAUD
+D1224 I returned the rental car, but the security hold has not been released yet. REFUND_PENDING
+D1225 The merchant's return policy states a 7-day refund, it's been 15 days. REFUND_PENDING
+D1226 My deposit for the event venue has not been refunded after the event. REFUND_PENDING
+D1227 The quality of the item is so poor that I consider it a scam. I want to dispute the charge. OTHERS
+D1228 I am being billed for a service even after my contract was officially terminated. OTHERS
+D1229 The exchange rate applied to my transaction is far from the market rate. OTHERS
+D1230 I paid once with my card, and once with the app. Both were charged. DUPLICATE_CHARGE
+D1231 The cashier was distracted and charged my card two times for the same items. DUPLICATE_CHARGE
+D1232 I have two identical debits for one order. Please reverse one. DUPLICATE_CHARGE
+D1233 My card was charged but the merchant's machine ran out of paper and he said it failed. FAILED_TRANSACTION
+D1234 The money was debited but the application submission was unsuccessful. FAILED_TRANSACTION
+D1235 My account has been charged but my order history on the website is empty. FAILED_TRANSACTION
+D1236 I have been a victim of identity theft. This transaction is not mine. FRAUD
+D1237 This charge is from a suspicious link I was sent in an email. FRAUD
+D1238 An unauthorized charge appeared on my card from a merchant I blocked. FRAUD
+D1239 My refund for a cancelled flight is stuck in 'processing' for weeks. REFUND_PENDING
+D1240 I am still waiting for the reimbursement for a returned item. REFUND_PENDING
+D1241 The seller is not responding to my messages after I returned the product. REFUND_PENDING
+D1242 The plumber charged me for a full hour, but was only here for 15 minutes. OTHERS
+D1243 The price advertised online was different from the in-store price I was charged. OTHERS
+D1244 This charge includes items that were removed from my order. OTHERS
+D1245 I paid my subscription with a gift card, but my credit card was also charged. DUPLICATE_CHARGE
+D1246 I have two charges from the same company with slightly different names. DUPLICATE_CHARGE
+D1247 The transaction did not succeed, but the debit is showing in my activity feed. FAILED_TRANSACTION
+D1248 I entered the wrong CVV, the payment failed, but my account was debited. FAILED_TRANSACTION
+D1249 My card was used to pay for a subscription on someone else's account. FRAUD
+D1250 This is a fraudulent in-app purchase. I want to contest this charge. FRAUD
+D1251 The merchant promised a credit to my account for a service issue, it's not here yet. REFUND_PENDING
+D1252 I am still waiting for the balance of my security deposit to be returned. REFUND_PENDING
+D1253 The product delivered is counterfeit. This is not what was advertised. OTHERS
+D1254 I am disputing this transaction because the service was never rendered. OTHERS
+D1255 A duplicate charge has appeared on my pending transactions. DUPLICATE_CHARGE
+D1256 The merchant's payment system has charged me twice for one invoice. DUPLICATE_CHARGE
+D1257 A technical glitch caused my payment to be taken twice. DUPLICATE_CHARGE
+D1258 The money was taken, but the merchant says my payment failed their security check. FAILED_TRANSACTION
+D1259 I have a debit here but no corresponding order or service. FAILED_TRANSACTION
+D1260 This unauthorized payment was made from my account while my phone was off. FRAUD
+D1261 I was scammed by a fake investment website. This is the charge. FRAUD
+D1262 The refund for my returned book is still not processed. REFUND_PENDING
+D1263 I am awaiting a refund for the part of my tour that was cancelled. REFUND_PENDING
+D1264 The hotel charged my card for a room service order I never placed. OTHERS
+D1265 I'm being billed for a higher data plan than the one I selected. OTHERS
+D1266 My card was billed twice for a single entry ticket. DUPLICATE_CHARGE
+D1267 I was charged once online, and then again when I picked up the item in-store. DUPLICATE_CHARGE
+D1268 The payment failed, but the amount has not been released back to my available balance. FAILED_TRANSACTION
+D1269 My account was charged but the ticket booking was not completed. FAILED_TRANSACTION
+D1270 This charge is from a suspicious merchant and I fear my card has been compromised. FRAUD
+D1271 I have never authorized recurring payments to this company. FRAUD
+D1272 I'm still waiting for a credit from the airline for a flight change fee. REFUND_PENDING
+D1273 The amount of the refund I received is incorrect; it should be higher. REFUND_PENDING
+D1274 This charge contains a sales tax, but my organization is tax-exempt. OTHERS
+D1275 The final charge from the rental company has unexplained fees. OTHERS
+D1276 I have two identical charges for my child's school fees this term. DUPLICATE_CHARGE
+D1277 The website timed out, but it seems to have charged me twice. DUPLICATE_CHARGE
+D1278 I was debited for a transaction that failed due to a PIN error. FAILED_TRANSACTION
+D1279 The money left my account but the transfer has not been received by the beneficiary after 3 days. FAILED_TRANSACTION
+D1280 This is not my spending pattern. This transaction is clearly fraudulent. FRAUD
+D1281 I received a fake invoice and was tricked into paying this amount. FRAUD
+D1282 The merchant has confirmed they cancelled the order. I am still waiting for the credit. REFUND_PENDING
+D1283 The refund for my damaged delivery is taking too long. REFUND_PENDING
+D1284 The contractor did a poor job and I am disputing the charge for their services. OTHERS
+D1285 The item I received is missing several key features that were advertised. OTHERS
+D1286 My card was charged twice at the pump for a single fill-up. DUPLICATE_CHARGE
+D1287 I can see two debits for one online course registration. DUPLICATE_CHARGE
+D1288 My transaction failed, but the money was deducted and not yet refunded. FAILED_TRANSACTION
+D1289 The payment was debited but the merchant system shows it as 'payment failed'. FAILED_TRANSACTION
+D1290 My card was used in a different state while I was at home. FRAUD
+D1291 An unauthorized charge was made to my card after I used it on an unsecured network. FRAUD
+D1292 The refund for the returned electronics has been pending for over 30 days. REFUND_PENDING
+D1293 I'm waiting for a reimbursement for a charge that the merchant agreed was an error. REFUND_PENDING
+D1294 I have been billed for an item that was supposed to be included in the main package. OTHERS
+D1295 This charge is from a restaurant, but the amount is far more than what my bill was. OTHERS
+D1296 My monthly donation was processed twice in one week. DUPLICATE_CHARGE
+D1297 I believe there was a glitch that led to my card being billed twice. DUPLICATE_CHARGE
+D1298 The payment didn't go through but the amount is held against my credit limit. FAILED_TRANSACTION
+D1299 My account was debited but the bill payment was not successful. FAILED_TRANSACTION
+D1300 I don't recognize this company or the charge. It must be fraud. FRAUD
+D1301 This is a fraudulent charge for a digital service I have never heard of. FRAUD
+D1302 The company closed down and I am still waiting for my refund on my pre-order. REFUND_PENDING
+D1303 I was promised a credit for a service disruption that has not been applied. REFUND_PENDING
+D1304 The final invoice includes charges for work that was not performed. OTHERS
+D1305 I am being charged for a premium feature that I did not activate. OTHERS
+D1306 The auto-debit for my loan was taken twice this month. DUPLICATE_CHARGE
+D1307 The payment terminal crashed and it appears to have charged me twice. DUPLICATE_CHARGE
+D1308 My transfer was unsuccessful but the money has not been credited back to my account. FAILED_TRANSACTION
+D1309 I have been charged but the recipient's account details were incorrect. The money is lost. FAILED_TRANSACTION
+D1310 I was the victim of a phishing email, which led to this fraudulent charge. FRAUD
+D1311 My card was used for a large cash withdrawal in another country. FRAUD
+D1312 The refund for the returned item has not appeared on my statement. REFUND_PENDING
+D1313 I have been waiting for a refund for a cancelled subscription for two months. REFUND_PENDING
+D1314 The hotel charged me a smoking fee, but I do not smoke. OTHERS
+D1315 The item is of substantially lower quality than advertised. OTHERS
+D1316 I paid my bill, and then my auto-payment paid it again. DUPLICATE_CHARGE
+D1317 I was billed twice for a single mobile app purchase. DUPLICATE_CHARGE
+D1318 My payment failed, but the amount was deducted from my bank balance. FAILED_TRANSACTION
+D1319 The transaction did not succeed but the money has been taken from my account. FAILED_TRANSACTION
+D1320 This unauthorized transaction occurred just after my personal data was breached. FRAUD
+D1321 My elderly parent was scammed into making this payment. FRAUD
+D1322 I am still waiting for a refund that was confirmed by the merchant via email. REFUND_PENDING
+D1323 The credit for my returned order is still being processed, it has been too long. REFUND_PENDING
+D1324 I was overcharged for the weight of the vegetables at the grocery store. OTHERS
+D1325 This charge is for a service I cancelled according to the provider's own terms. OTHERS
+D1326 I was charged twice for the same tank of gas. DUPLICATE_CHARGE
+D1327 There are two identical debits for one online transaction. DUPLICATE_CHARGE
+D1328 The payment was declined by my bank but the merchant system seems to have charged me anyway. FAILED_TRANSACTION
+D1329 The amount was taken from my account but the money transfer did not complete. FAILED_TRANSACTION
+D1330 My card was used to make several donations to a charity I have never supported. FRAUD
+D1331 I suspect a dishonest employee skimmed my card details at a restaurant. FRAUD
+D1332 My refund for a cancelled event has been pending for over 60 days. REFUND_PENDING
+D1333 I am still waiting for the reimbursement of a security deposit for a rental. REFUND_PENDING
+D1334 The service provided was not completed to a satisfactory standard. OTHERS
+D1335 This transaction has an incorrect merchant category code. OTHERS
+D1336 A payment was taken on my old card and my new card for the same subscription. DUPLICATE_CHARGE
+D1337 The app froze and I was charged twice for the same booking. DUPLICATE_CHARGE
+D1338 I was debited but the recharge failed due to a provider issue. FAILED_TRANSACTION
+D1339 The transaction shows successful but the merchant claims they have not received the money. FAILED_TRANSACTION
+D1340 This charge is for a product I never received. I believe the company is a scam. FRAUD
+D1341 An unauthorized cash advance was made on my credit card. FRAUD
+D1342 The refund for my undelivered package has been approved but not credited. REFUND_PENDING
+D1343 I am awaiting a refund for a faulty item that I returned weeks ago. REFUND_PENDING
+D1344 The price I was charged in-store is different from the online price for the same item. OTHERS
+D1345 I am disputing this charge due to a breach of contract by the service provider. OTHERS
+D1346 My food delivery order was billed twice. DUPLICATE_CHARGE
+D1347 I can see two identical charges for my monthly gym membership. DUPLICATE_CHARGE
+D1348 My card was charged but the order was not processed. FAILED_TRANSACTION
+D1349 The payment did not go through but the amount has not been released from my account. FAILED_TRANSACTION
+D1350 This is a fraudulent charge. I was not even in the country when it was made. FRAUD
+D1351 My computer was infected with a virus, which led to this unauthorized purchase. FRAUD
+D1352 I am still waiting for a promised refund for a service outage. REFUND_PENDING
+D1353 The merchant's return system is down and I cannot get my refund. REFUND_PENDING
+D1354 The vehicle I was given was a lower category than what I paid for. OTHERS
+D1355 The subscription was auto-renewed against my explicit instruction to cancel. OTHERS
+D1356 My card was charged twice in quick succession at the same merchant. DUPLICATE_CHARGE
+D1357 A single click on the 'pay' button resulted in two charges. DUPLICATE_CHARGE
+D1358 The money was debited but the ticket was not issued due to an error. FAILED_TRANSACTION
+D1359 The transaction is stuck, the money is gone, and the merchant has not been paid. FAILED_TRANSACTION
+D1360 My card information was stolen and used to buy gift cards online. FRAUD
+D1361 This transaction was made by someone who has stolen my identity. FRAUD
+D1362 My refund for a cancelled trip is still pending approval. REFUND_PENDING
+D1363 The seller is ignoring my emails regarding the refund for a returned item. REFUND_PENDING
+D1364 I was charged for a three-course meal but the dessert was not served. OTHERS
+D1365 The company is not honouring its 'money back guarantee'. OTHERS
+D1366 My wife's card and my card were both charged for the same family dinner. DUPLICATE_CHARGE
+D1367 I was billed twice for a digital subscription in the same month. DUPLICATE_CHARGE
+D1368 The payment was debited, but the transfer did not go through to the beneficiary. FAILED_TRANSACTION
+D1369 My account was charged but the merchant's website says 'payment declined'. FAILED_TRANSACTION
+D1370 I found this unauthorized charge on my elderly father's bank statement. FRAUD
+D1371 Someone used my details to sign up for a service and this is the charge. FRAUD
+D1372 I am still waiting for a refund for a product that was recalled. REFUND_PENDING
+D1373 The credit for a cancelled order has not been applied to my account yet. REFUND_PENDING
+D1374 The 'final' bill from the contractor included a number of unexpected charges. OTHERS
+D1375 I'm disputing the condition of the rental property for which I was charged. OTHERS
+D1376 I was billed twice for a single entry to the car park. DUPLICATE_CHARGE
+D1377 A single grocery shop has appeared twice on my bank statement. DUPLICATE_CHARGE
+D1378 My transfer to my own account in another bank failed, but the money was deducted. FAILED_TRANSACTION
+D1379 The transaction failed, but the amount is still being held as a pending charge. FAILED_TRANSACTION
+D1380 This is a fraudulent charge for an item I never ordered or received. FRAUD
+D1381 My card was used to make a political donation that I did not approve. FRAUD
+D1382 I am waiting for a refund that was agreed upon during a mediation with the seller. REFUND_PENDING
+D1383 The refund for a duplicate transaction is still pending from last month. REFUND_PENDING
+D1384 I have been overcharged for my mobile data usage this month. OTHERS
+D1385 The service provided was not what was promised in the contract. OTHERS
+D1386 My card was charged twice for the same set of tickets. DUPLICATE_CHARGE
+D1387 I can see two identical payments to the same online service. DUPLICATE_CHARGE
+D1388 The money has been debited, but my bill is still showing as due. FAILED_TRANSACTION
+D1389 The payment from my account was successful, but the merchant never received it. FAILED_TRANSACTION
+D1390 My account has been compromised. This transaction is a result of that breach. FRAUD
+D1391 This charge is for a fake anti-virus software that scammed me. FRAUD
+D1392 The refund for a returned gift is still not processed. REFUND_PENDING
+D1393 I'm still waiting for a credit from my utility company for an overpayment. REFUND_PENDING
+D1394 The final price was much higher than the verbal estimate I was given. OTHERS
+D1395 The item arrived with parts missing, and the seller is unresponsive. OTHERS
+D1396 A single order was split into two shipments and I was charged twice for the full order. DUPLICATE_CHARGE
+D1397 The network was bad and it seems the payment went through twice. DUPLICATE_CHARGE
+D1398 My account was debited for a transfer that failed to process. FAILED_TRANSACTION
+D1399 I was charged, but the recipient's account is frozen and did not receive the money. FAILED_TRANSACTION
+D1400 I don't recognize this debit. Please investigate this as a potential fraud. FRAUD
+D1401 This is a fraudulent charge from a merchant pretending to be a well-known brand. FRAUD
+D1402 The company promised a refund within 14 days. It is now day 30. REFUND_PENDING
+D1403 I am waiting for the refund for an event that was cancelled by the organizers. REFUND_PENDING
+D1404 I was billed for drinks from the mini-bar, but I never took any. OTHERS
+D1405 The car I rented had a mechanical issue. I am disputing the charge for the rental. OTHERS
+D1406 My card was charged for my order, and my PayPal account was charged too. DUPLICATE_CHARGE
+D1407 The vending machine took my money but did not dispense the item, so I tried again. I was charged twice. DUPLICATE_CHARGE
+D1408 My online payment failed but the debit is reflecting in my account. FAILED_TRANSACTION
+D1409 The payment did not go through, but the amount has not been refunded. FAILED_TRANSACTION
+D1410 I was scammed by a person on a classifieds site. This is the payment I made. FRAUD
+D1411 This unauthorized transaction was made using a cloned version of my card. FRAUD
+D1412 The credit for my returned clothing has still not been processed. REFUND_PENDING
+D1413 I am waiting for a refund for a duplicate charge that happened last week. REFUND_PENDING
+D1414 The gym is still charging me even though I cancelled my membership in writing. OTHERS
+D1415 The repair job was incomplete but I was charged the full amount. OTHERS
+D1416 I have two identical pending authorizations for one hotel stay. DUPLICATE_CHARGE
+D1417 My subscription fee was taken out twice in the same billing cycle. DUPLICATE_CHARGE
+D1418 The money was debited but the merchant's gateway declined the payment. FAILED_TRANSACTION
+D1419 The transaction failed but the amount is still reserved on my card. FAILED_TRANSACTION
+D1420 This charge is from a fake website designed to look like a real one. FRAUD
+D1421 An unauthorized in-app purchase was made on my son's phone. FRAUD
+D1422 I was told my refund was processed, but it has not appeared in my account. REFUND_PENDING
+D1423 I am waiting for a credit for an item that was missing from my delivery. REFUND_PENDING
+D1424 The taxi driver took a much longer route than necessary and overcharged me. OTHERS
+D1425 I am disputing this charge due to the unprofessional conduct of the service provider. OTHERS
+D1426 I was billed twice for a single visit to the doctor. DUPLICATE_CHARGE
+D1427 A payment error resulted in a duplicate transaction on my account. DUPLICATE_CHARGE
+D1428 My account was debited for a transaction that failed due to a timeout. FAILED_TRANSACTION
+D1429 The funds transfer failed but the money has not been returned to my account. FAILED_TRANSACTION
+D1430 This fraudulent charge was made while I was out of the country. FRAUD
+D1431 My card was used to buy something from a merchant I have never heard of. FRAUD
+D1432 The refund for a cancelled booking is still not reflected in my account balance. REFUND_PENDING
+D1433 I am waiting for a reimbursement for a product that was damaged on arrival. REFUND_PENDING
+D1434 The service provided did not match the description on the provider's website. OTHERS
+D1435 This transaction is for a different amount than what I authorized. OTHERS
+D1436 My card was charged twice for a single order of groceries. DUPLICATE_CHARGE
+D1437 Two payments were taken for one invoice. DUPLICATE_CHARGE
+D1438 I was charged but the bill payment was not successful. FAILED_TRANSACTION
+D1439 The transaction was unsuccessful, but the money was deducted. FAILED_TRANSACTION
+D1440 This charge is fraudulent. My card has been compromised. FRAUD
+D1441 Someone has used my card details to purchase online services without my consent. FRAUD
+D1442 The refund for my returned purchase is long overdue. REFUND_PENDING
+D1443 I am still waiting for the credit for a flight that was cancelled by the airline. REFUND_PENDING
+D1444 The product I received is a poor-quality imitation of the real thing. OTHERS
+D1445 I was charged a cancellation fee even though I cancelled within the allowed time frame. OTHERS
+D1446 I have two identical charges from a restaurant on the same night. DUPLICATE_CHARGE
+D1447 The website froze, and now I have been charged twice for the same items. DUPLICATE_CHARGE
+D1448 The money was debited from my account but the transfer failed. FAILED_TRANSACTION
+D1449 My payment did not go through, but the amount is missing from my account. FAILED_TRANSACTION
+D1450 I did not make this transaction. I am a victim of fraud. FRAUD
+D1451 This charge is from a merchant that has been reported for scamming customers. FRAUD
+D1452 The merchant has not yet processed the refund for my returned merchandise. REFUND_PENDING
+D1453 I am still waiting for the refund of my deposit for the rental property. REFUND_PENDING
+D1454 The final cost of the service was significantly higher than the initial quote. OTHERS
+D1455 I'm disputing this charge as the goods were not delivered by the promised date. OTHERS
+D1456 A recurring payment was taken out twice on the same day. DUPLICATE_CHARGE
+D1457 I was billed twice for a single month of my streaming subscription. DUPLICATE_CHARGE
+D1458 The transaction failed but the debit has been posted to my account. FAILED_TRANSACTION
+D1459 I was debited for a payment that the merchant has no record of. FAILED_TRANSACTION
+D1460 This is an unauthorized charge on my account; I suspect my card was cloned. FRAUD
+D1461 My details were used to make this fraudulent online purchase. FRAUD
+D1462 I have not yet received the refund for a returned item. REFUND_PENDING
+D1463 The credit for a cancelled service is still pending on my account. REFUND_PENDING
+D1464 The product I received is defective and the merchant is not cooperating. OTHERS
+D1465 The company is trying to charge me for services I did not agree to. OTHERS
+D1466 My card was charged twice for the same online subscription renewal. DUPLICATE_CHARGE
+D1467 The app glitched and processed my payment for the same bill twice. DUPLICATE_CHARGE
+D1468 The money was deducted but the flight ticket was not booked. FAILED_TRANSACTION
+D1469 My account was charged for a failed fund transfer. FAILED_TRANSACTION
+D1470 I am reporting this transaction as fraud. Please cancel my card. FRAUD
+D1471 This charge is from a known scam website. FRAUD
+D1472 The refund for my returned order is still being processed. REFUND_PENDING
+D1473 I am awaiting a refund for an accidental duplicate payment. REFUND_PENDING
+D1474 The service provided was not performed with due care and skill. OTHERS
+D1475 I was charged for a larger size drink than the one I ordered. OTHERS
+D1476 I have two identical charges for my internet bill this month. DUPLICATE_CHARGE
+D1477 The cashier seemed to have trouble with the terminal and charged me twice. DUPLICATE_CHARGE
+D1478 The transaction failed, but the funds have been held from my account. FAILED_TRANSACTION
+D1479 The debit for my failed recharge has not been reversed. FAILED_TRANSACTION
+D1480 My card was used fraudulently while I was on vacation. FRAUD
+D1481 I did not authorize this recurring charge on my account. FRAUD
+D1482 The refund for my cancelled hotel room is still pending. REFUND_PENDING
+D1483 I am still waiting for the money back from a returned dress. REFUND_PENDING
+D1484 The item I received is missing a crucial component. OTHERS
+D1485 I am disputing this late fee as the payment was made before the deadline. OTHERS
+D1486 I was billed twice for a single taxi journey. DUPLICATE_CHARGE
+D1487 My credit card shows two charges for one online order. DUPLICATE_CHARGE
+D1488 The money was debited, but the beneficiary's account has been closed. FAILED_TRANSACTION
+D1489 The payment did not go through but the amount has not been credited back. FAILED_TRANSACTION
+D1490 This transaction is fraudulent. I was in a different city at the time. FRAUD
+D1491 My account was used to make an unauthorized purchase of digital goods. FRAUD
+D1492 I have not received the refund for a returned pair of shoes. REFUND_PENDING
+D1493 The credit for my cancelled software subscription is still awaited. REFUND_PENDING
+D1494 The final charge for my car service included work I did not approve. OTHERS
+D1495 I'm disputing this charge as the product is not genuine. OTHERS
+D1496 My card was charged twice for a single coffee. DUPLICATE_CHARGE
+D1497 The payment system erred and charged my card twice for the same service. DUPLICATE_CHARGE
+D1498 The transaction failed, but the amount has been deducted. FAILED_TRANSACTION
+D1499 My account was debited for a payment that did not reach the merchant. FAILED_TRANSACTION
+D1500 I am reporting this unauthorized transaction and blocking my card. FRAUD
+D1501 This is a fraudulent charge from a merchant I do not recognize. FRAUD
+D1502 The refund for my returned electronics is still being processed. REFUND_PENDING
+D1503 I am waiting for a refund for a service that was not provided as advertised. REFUND_PENDING
+D1504 The item I received is a different color and size than what I ordered. OTHERS
+D1505 I was charged for a full membership when I only signed up for a trial. OTHERS
+D1506 A single restaurant bill was charged twice to my credit card. DUPLICATE_CHARGE
+D1507 I believe a system glitch resulted in me being charged twice for my shopping. DUPLICATE_CHARGE
+D1508 The money was taken, but the transfer did not go through. FAILED_TRANSACTION
+D1509 The payment failed, but my bank account shows a debit for the amount. FAILED_TRANSACTION
+D1510 My card was used to make a fraudulent online bet. FRAUD
+D1511 This unauthorized charge appeared after I used my card on a suspicious website. FRAUD
+D1512 The refund for my cancelled flight tickets has not been credited yet. REFUND_PENDING
+D1513 I am still awaiting the credit for my returned merchandise. REFUND_PENDING
+D1514 The quality of the food delivered was unacceptable. OTHERS
+D1515 The company charged me a cancellation fee that is not mentioned in their terms. OTHERS
+D1516 My monthly auto-payment was processed twice this month. DUPLICATE_CHARGE
+D1517 There are two identical transactions for my recent online purchase. DUPLICATE_CHARGE
+D1518 The transaction was cancelled, but the amount was still deducted. FAILED_TRANSACTION
+D1519 The payment failed, but the funds have not been returned. FAILED_TRANSACTION
+D1520 This is a fraudulent charge. My card was used in another country. FRAUD
+D1521 I received a scam text message and then this fraudulent transaction occurred. FRAUD
+D1522 The refund for my returned item is stuck in 'pending' status. REFUND_PENDING
+D1523 I am still waiting for the company to refund my security deposit. REFUND_PENDING
+D1524 The product is not working as advertised and I want to dispute the charge. OTHERS
+D1525 I am being billed for a service after I cancelled my account. OTHERS
+D1526 I was double-charged for my tickets at the movie theater. DUPLICATE_CHARGE
+D1527 My subscription fee was charged twice in one go. DUPLICATE_CHARGE
+D1528 The payment did not succeed, but the amount was taken from my account. FAILED_TRANSACTION
+D1529 My account was debited, but the online order was not confirmed. FAILED_TRANSACTION
+D1530 I did not make this purchase. This is a case of identity theft. FRAUD
+D1531 This unauthorized charge was made while my card was in my possession. FRAUD
+D1532 The refund for a cancelled event ticket has not been processed. REFUND_PENDING
+D1533 I am still waiting for the refund for a returned item bought online. REFUND_PENDING
+D1534 The service provided was rushed and incomplete. OTHERS
+D1535 I was charged a higher price than what was displayed on the menu. OTHERS
+D1536 Two identical charges have appeared for my monthly phone bill. DUPLICATE_CHARGE
+D1537 A software error led to my card being billed twice for the same service. DUPLICATE_CHARGE
+D1538 The transaction failed, but the amount has been held on my card. FAILED_TRANSACTION
+D1539 The money was debited but the merchant did not receive the payment. FAILED_TRANSACTION
+D1540 This is a fraudulent transaction. I suspect my card was skimmed. FRAUD
+D1541 My card was used to make an online purchase from a merchant I've never heard of. FRAUD
+D1542 The refund for my returned product has been pending for weeks. REFUND_PENDING
+D1543 I am still waiting for a refund for a service that was cancelled. REFUND_PENDING
+D1544 The item I received is a cheap knockoff, not the authentic product I ordered. OTHERS
+D1545 I was charged for a subscription renewal that I had already cancelled. OTHERS
+D1546 I have two identical charges for a single online order. DUPLICATE_CHARGE
+D1547 The website crashed during checkout and I was charged twice. DUPLICATE_CHARGE
+D1548 The money was taken from my account for a failed transaction. FAILED_TRANSACTION
+D1549 The payment did not go through but the amount is still deducted from my balance. FAILED_TRANSACTION
+D1550 This is a fraudulent charge. My card was used to buy something in a different city. FRAUD
+D1551 My card was used for a food delivery service in a city I don't live in. FRAUD
+D1552 I received a 'password reset' email, clicked a link, and then this charge appeared. FRAUD
+D1553 This transaction was for an online casino, a type of site I never visit. FRAUD
+D1554 I found this charge after my wallet was stolen from the gym locker. FRAUD
+D1555 The charge is from a merchant with a gibberish name like 'SDFJ Services'. FRAUD
+D1556 I was contacted by someone claiming to be from the bank's fraud department, then this happened. FRAUD
+D1557 Someone used my card to buy a large amount of cryptocurrency. That was not me. FRAUD
+D1558 I'm certain a waiter copied my card details. This charge appeared hours after I left the restaurant. FRAUD
+D1559 This transaction happened in the middle of the night while I was asleep. FRAUD
+D1560 My phone was compromised, and this payment was made without my approval. FRAUD
+D1561 This is a fraudulent charge for a subscription I did not sign up for. FRAUD
+D1562 The delivery address for this online order is not mine or anyone I know. FRAUD
+D1563 I let a friend borrow my laptop, and I suspect they made this purchase without asking. FRAUD
+D1564 This payment was made to a political campaign that I do not support. FRAUD
+D1565 I suspect my card was skimmed at a petrol pump just before this charge appeared. FRAUD
+D1566 This charge is from a country I have never been to. FRAUD
+D1567 An unauthorized payment was made from my account that drained my balance. FRAUD
+D1568 I have never heard of this company before. This must be fraud. FRAUD
+D1569 My child made this in-app purchase without my permission. I want to report it as unauthorized. FRAUD
+D1570 I have a charge for an online service that I cancelled months ago. They are stealing from me. FRAUD
+D1571 I was scammed by a fake technical support pop-up on my computer. FRAUD
+D1572 This is a fraudulent withdrawal from an ATM located 1000 miles away. FRAUD
+D1573 I never shared my OTP, so I don't understand how this transaction was approved. FRAUD
+D1574 This charge appeared immediately after I used my card on a suspicious-looking website. FRAUD
+D1575 My card was used for a 'test' transaction of $1, followed by this large amount. FRAUD
+D1576 The merchant is a ghost company; their website and phone number are fake. FRAUD
+D1577 I received a 'You've won a prize' message, and after entering my details, I was charged this amount. FRAUD
+D1578 This transaction has the hallmarks of a classic phishing scam. FRAUD
+D1579 My ex-partner must have used my stored card details to make this purchase. FRAUD
+D1580 This is not my spending habit at all. It is clearly a fraudulent transaction. FRAUD
+D1581 I want to report a fraudulent charge. The merchant is unresponsive. FRAUD
+D1582 This charge is for a 'free' report that I was then billed for without consent. FRAUD
+D1583 I believe my computer has malware that captured my credit card details. FRAUD
+D1584 This is a fraudulent charge. I have the physical card with me. FRAUD
+D1585 I've been a victim of a SIM-swap fraud, and this was one of the resulting transactions. FRAUD
+D1586 The payment was for an investment opportunity that turned out to be a Ponzi scheme. FRAUD
+D1587 This transaction was made with an expired version of my card. How is that possible? FRAUD
+D1588 I am reporting this unauthorized debit. I did not make this purchase. FRAUD
+D1589 My card was used to purchase a subscription for an account that is not mine. FRAUD
+D1590 This looks like a fraudulent charge from a romance scam I was a victim of. FRAUD
+D1591 This payment was for a product that was never delivered, and the seller has vanished. FRAUD
+D1592 I was tricked into providing a 'verification code' which was actually an OTP for this transaction. FRAUD
+D1593 The charge is for a service I cancelled, and they keep charging me under different company names. FRAUD
+D1594 My card details were stolen from a hotel booking site, leading to this charge. FRAUD
+D1595 I don't recognize this payment at all. I am disputing it as fraud. FRAUD
+D1596 The charge is for a rental car in a state I was not in on that date. FRAUD
+D1597 I've had several small, unauthorized charges from this same unknown merchant. FRAUD
+D1598 I responded to a fake job offer and they asked for my card details for a 'background check'. FRAUD
+D1599 This is a fraudulent transaction for a weight-loss product I never ordered. FRAUD
+D1600 I am disputing this charge, as it was made after I placed a fraud alert on my account. FRAUD
+D1601 This charge came from a mobile game I don't even have installed. FRAUD
+D1602 I was coerced into making this payment by a scammer on the phone. FRAUD
+D1603 This is a fraudulent renewal for a service I never subscribed to in the first place. FRAUD
+D1604 My card was used at a POS terminal when I was at home, miles away. FRAUD
+D1605 This is a suspicious international transaction that I did not authorize. FRAUD
+D1606 The merchant is known for credit card fraud, as I've now discovered online. FRAUD
+D1607 I believe my mail was stolen and my new credit card was activated and used by a thief. FRAUD
+D1608 This charge is for a very large amount from a store I've never shopped at. FRAUD
+D1609 I am reporting this as a fraudulent transaction. I was not even awake when it was made. FRAUD
+D1610 I was charged for a digital service from a pop-up ad I accidentally clicked. FRAUD
+D1611 My card was used to pay for someone else's utility bill. FRAUD
+D1612 This is a payment to a company that was shut down for fraudulent activities. FRAUD
+D1613 I was charged for a "prize" that required me to pay for shipping. Nothing arrived. FRAUD
+D1614 This transaction does not appear in my e-commerce order history. It's not mine. FRAUD
+D1615 I noticed this charge after connecting to an unsecured public Wi-Fi network. FRAUD
+D1616 This merchant has added an exorbitant tip to my bill without my authorization. FRAUD
+D1617 I am the victim of a fake lottery scam, and this is the payment I made. FRAUD
+D1618 This is a fraudulent charge for a subscription disguised as a one-time purchase. FRAUD
+D1619 I tried to get a loan from a fake company and they charged this 'processing fee'. FRAUD
+D1620 My card was charged, but the delivery was made to a different address and signed by a stranger. FRAUD
+D1621 This charge is from a duplicate of a popular website, designed to steal card info. FRAUD
+D1622 I am reporting this charge as I believe a family member used my card without consent. FRAUD
+D1623 This payment for a 'charity' turned out to be a complete scam. FRAUD
+D1624 I would like to report this suspicious activity on my account. I did not make this purchase. FRAUD
+D1625 I was charged for a product I returned, and now the merchant claims I sent back an empty box. FRAUD
+D1626 This charge is from a mobile payment made with a phone that is not mine. FRAUD
+D1627 I have security footage showing I was in a different location at the time of this transaction. FRAUD
+D1628 This is a fraudulent upgrade to a service that I never requested. FRAUD
+D1629 My card was used to buy multiple gift cards online, which I did not do. FRAUD
+D1630 The company charged me for a "free" trial that was impossible to cancel. FRAUD
+D1631 I am disputing this charge. I have reason to believe the merchant is a front for illegal activity. FRAUD
+D1632 This transaction was made using a virtual card number that I had already deleted. FRAUD
+D1633 The charge is for a ticket to an event that doesn't actually exist. FRAUD
+D1634 I've been double-charged for an item, and now I believe the merchant did it intentionally. FRAUD
+D1635 This is a fraudulent charge for a service that claims to improve my credit score. FRAUD
+D1636 I am reporting this unauthorized debit. My online banking credentials were stolen. FRAUD
+D1637 This payment was made through a payment link sent in a phishing text message. FRAUD
+D1638 The merchant's name is associated with numerous fraud reports on consumer forums. FRAUD
+D1639 This charge is from a company that promised a product but sent a cheap trinket instead. FRAUD
+D1640 I believe a dishonest employee at a call center stole my card details. FRAUD
+D1641 This is a fraudulent payment for a government service from a non-governmental website. FRAUD
+D1642 My card was used to fund an online wallet that does not belong to me. FRAUD
+D1643 I am disputing this charge. I never received the goods and the seller is no longer registered. FRAUD
+D1644 This transaction was made after my card should have been blocked. FRAUD
+D1645 I received an alert for this payment being made in a different currency and country. FRAUD
+D1646 This charge is for a high-risk investment that I did not authorize. FRAUD
+D1647 I was tricked into a "bait and switch" scam. This charge is the result. FRAUD
+D1648 This is an unauthorized corporate expense on my personal card. FRAUD
+D1649 The merchant charged me for a full year's subscription after I only authorized one month. FRAUD
+D1650 I am disputing this transaction as it was made by a person who stole my identity. FRAUD
+D1651 I was billed twice for a single month of my cloud storage subscription. DUPLICATE_CHARGE
+D1652 The website showed an error, so I resubmitted the payment, and was charged twice. DUPLICATE_CHARGE
+D1653 My auto-payment for the loan went through, and I also made a manual payment. Both were processed. DUPLICATE_CHARGE
+D1654 The cashier insisted the first payment was declined and swiped my card again. I was charged for both. DUPLICATE_CHARGE
+D1655 My monthly internet bill was debited two times on the same day. DUPLICATE_CHARGE
+D1656 The food delivery app charged me for my order, and then charged me again a minute later. DUPLICATE_CHARGE
+D1657 I have two identical charges from the pharmacy from my visit yesterday. DUPLICATE_CHARGE
+D1658 Please refund one of these charges; they are for the same purchase. DUPLICATE_CHARGE
+D1659 My gym membership fee was deducted twice this month. DUPLICATE_CHARGE
+D1660 The parking meter was faulty and it seems to have billed my card for two sessions. DUPLICATE_CHARGE
+D1661 A single online transaction has appeared twice on my credit card statement. DUPLICATE_CHARGE
+D1662 I have a charge for my order and another identical pending charge for the same order. DUPLICATE_CHARGE
+D1663 The app froze during the payment process, resulting in a duplicate billing. DUPLICATE_CHARGE
+D1664 I paid my rent once, but the property management portal has charged me twice. DUPLICATE_CHARGE
+D1665 This is a duplicate charge. Please reverse one of the two identical transactions. DUPLICATE_CHARGE
+D1666 My card was charged once at the pump, and then again inside the store for the same fuel. DUPLICATE_CHARGE
+D1667 I'm seeing a double debit for my mobile phone bill. DUPLICATE_CHARGE
+D1668 The booking website charged me, and the hotel also charged me for the same room. DUPLICATE_CHARGE
+D1669 The server timed out, so I tried again and now I have two charges for one item. DUPLICATE_CHARGE
+D1670 My electricity bill was paid by auto-debit, but I also paid it manually by mistake. DUPLICATE_CHARGE
+D1671 The NFC reader was acting up and I believe it charged me twice when I tapped my phone. DUPLICATE_CHARGE
+D1672 This is a clear duplicate transaction; the amount and merchant are the same, just seconds apart. DUPLICATE_CHARGE
+D1673 I was charged for my meal, and then a second, identical charge appeared an hour later. DUPLICATE_CHARGE
+D1674 My card was billed twice for one taxi ride. The app shows two completed trips. DUPLICATE_CHARGE
+D1675 The same EMI amount has been deducted twice from my account this month. DUPLICATE_CHARGE
+D1676 I have been double-charged for my annual software subscription. DUPLICATE_CHARGE
+D1677 The online store charged me for the item when I ordered it, and again when it shipped. DUPLICATE_CHARGE
+D1678 This is a duplicate charge. I only have one receipt for this amount. DUPLICATE_CHARGE
+D1679 My wife and I both paid the household gas bill, resulting in a double payment. DUPLICATE_CHARGE
+D1680 The vending machine glitched and took payment twice for one can of soda. DUPLICATE_CHARGE
+D1681 I see two identical charges from my recent visit to the coffee shop. DUPLICATE_CHARGE
+D1682 This is a duplicate billing error for my monthly insurance premium. DUPLICATE_CHARGE
+D1683 The charge for my online course was processed twice. DUPLICATE_CHARGE
+D1684 I have two debits for the same amount, from the same merchant, on the same date. DUPLICATE_CHARGE
+D1685 I paid the invoice online, but it seems a check I mailed earlier was also cashed. DUPLICATE_CHARGE
+D1686 The self-checkout kiosk froze and I had to scan everything again. Now I see two charges. DUPLICATE_CHARGE
+D1687 This is a duplicate charge. One payment was supposed to be voided. DUPLICATE_CHARGE
+D1688 I updated my card details and was charged on both the old card and the new one for the same service. DUPLICATE_CHARGE
+D1689 The toll booth charged my FASTag account twice for passing through one time. DUPLICATE_CHARGE
+D1690 I'm disputing one of these two identical charges from the same company. DUPLICATE_CHARGE
+D1691 My card was billed twice for a single purchase. Please investigate. DUPLICATE_CHARGE
+D1692 The ticket machine charged me twice for the same train journey. DUPLICATE_CHARGE
+D1693 I only authorized one payment, but my statement shows two debits. DUPLICATE_CHARGE
+D1694 The website had a glitch and my donation was processed twice. DUPLICATE_CHARGE
+D1695 The first transaction showed 'pending', so I made another. Now the first one is also posted. DUPLICATE_CHARGE
+D1696 A network error caused my mobile payment to be sent twice. DUPLICATE_CHARGE
+D1697 This is a repeat charge for a one-time service I already paid for. DUPLICATE_CHARGE
+D1698 I have two charges from the airline for the same seat upgrade. DUPLICATE_CHARGE
+D1699 The merchant processed my payment, and then processed it again by mistake. DUPLICATE_CHARGE
+D1700 I would like to dispute this second charge as it is a clear duplicate of the first. DUPLICATE_CHARGE
+D1701 My monthly streaming service was billed on the 10th and then again on the 12th. DUPLICATE_CHARGE
+D1702 I was charged for a product, and then charged the exact same amount for "shipping". DUPLICATE_CHARGE
+D1703 The pre-authorization for my hotel stay was charged as well as the final bill. DUPLICATE_CHARGE
+D1704 This charge is an exact copy of the one before it on my account activity. DUPLICATE_CHARGE
+D1705 I have been double-charged for my daughter's school tuition this semester. DUPLICATE_CHARGE
+D1706 My card was charged, and my linked digital wallet was also charged for the same purchase. DUPLICATE_CHARGE
+D1707 The merchant ran my card through two different machines, and both charged me. DUPLICATE_CHARGE
+D1708 This is a duplicate billing for a web hosting service. DUPLICATE_CHARGE
+D1709 I have two identical debits for one car wash. DUPLICATE_CHARGE
+D1710 The payment was taken twice. Please refund the duplicate amount. DUPLICATE_CHARGE
+D1711 My card was swiped twice in error at the restaurant. DUPLICATE_CHARGE
+D1712 I was billed twice for a single entry to the theme park. DUPLICATE_CHARGE
+D1713 The subscription renewal was processed twice, back-to-back. DUPLICATE_CHARGE
+D1714 I'm seeing double charges for my recent grocery shopping trip. DUPLICATE_CHARGE
+D1715 The company took my monthly payment, and then took it again a week later. DUPLICATE_CHARGE
+D1716 This is a duplicate transaction that needs to be reversed immediately. DUPLICATE_CHARGE
+D1717 The website crashed, but not before charging my card twice for the same concert tickets. DUPLICATE_CHARGE
+D1718 I have two charges for one order. This is a billing error. DUPLICATE_CHARGE
+D1719 My card was charged twice for a single fill-up at the gas station. DUPLICATE_CHARGE
+D1720 A payment error resulted in my being charged twice for one item. DUPLICATE_CHARGE
+D1721 I'm disputing this charge as it is a duplicate of a transaction I already paid. DUPLICATE_CHARGE
+D1722 The same amount was debited twice in a row from the same merchant. DUPLICATE_CHARGE
+D1723 My card was charged at the restaurant, and I also paid my friend who then paid the whole bill. DUPLICATE_CHARGE
+D1724 I'm seeing two charges from the same vendor with almost identical transaction IDs. DUPLICATE_CHARGE
+D1725 The system glitched and billed me for two annual subscriptions instead of one. DUPLICATE_CHARGE
+D1726 This charge is a duplicate. I only made one booking. DUPLICATE_CHARGE
+D1727 My automatic payment and a manual payment for the same invoice both went through. DUPLICATE_CHARGE
+D1728 The mobile app has charged me twice for a single in-app purchase. DUPLICATE_CHARGE
+D1729 I have been double-billed for this month's phone contract. DUPLICATE_CHARGE
+D1730 I only clicked 'confirm' once, but two payments were taken. DUPLICATE_CHARGE
+D1731 The first swipe failed, but it seems it actually went through along with the second one. DUPLICATE_CHARGE
+D1732 I was charged for my coffee, and then charged again for the same coffee. DUPLICATE_CHARGE
+D1733 This is a duplicate charge for a doctor's co-payment. DUPLICATE_CHARGE
+D1734 My rent was deducted twice. I need one of the payments returned. DUPLICATE_CHARGE
+D1735 The online checkout page reloaded and processed my order a second time. DUPLICATE_CHARGE
+D1736 I have two charges for the same amount, from the same merchant, with different timestamps. DUPLICATE_CHARGE
+D1737 I paid for one service but was billed for two. DUPLICATE_CHARGE
+D1738 The merchant's terminal was offline, they took an imprint, then charged me electronically as well. DUPLICATE_CHARGE
+D1739 This transaction appears twice on my statement. Please remove one. DUPLICATE_CHARGE
+D1740 My car was charged twice for a single wash. DUPLICATE_CHARGE
+D1741 I believe I was double-charged for my recent hotel stay. DUPLICATE_CHARGE
+D1742 A single visit to the vet has resulted in two identical charges. DUPLICATE_CHARGE
+D1743 The payment for my weekly vegetable box was taken twice. DUPLICATE_CHARGE
+D1744 I was charged for a yearly subscription, and then again for a monthly one. DUPLICATE_CHARGE
+D1745 This is a duplicate debit that needs to be credited back to my account. DUPLICATE_CHARGE
+D1746 The system duplicated my order and charged me for both. DUPLICATE_CHARGE
+D1747 I have been billed twice for the same software plugin. DUPLICATE_CHARGE
+D1748 The charge from the bar appears twice on my activity log. DUPLICATE_CHARGE
+D1749 A technical issue led to my card being charged twice for the same item. DUPLICATE_CHARGE
+D1750 Please investigate this duplicate billing. I only purchased one product. DUPLICATE_CHARGE
+D1751 The payment page displayed 'Transaction Failed', but the amount was debited from my account. FAILED_TRANSACTION
+D1752 I received a debit alert from my bank, but the merchant said the payment was declined. FAILED_TRANSACTION
+D1753 My UPI transfer failed due to a network error, but the money has not been credited back. FAILED_TRANSACTION
+D1754 The transaction timed out, but a charge for the attempted payment is on my statement. FAILED_TRANSACTION
+D1755 The POS terminal printed a 'Cancelled' slip, yet my account shows a successful debit. FAILED_TRANSACTION
+D1756 My account was charged, but the bill I was trying to pay is still showing as outstanding. FAILED_TRANSACTION
+D1757 The ATM did not dispense any cash, but the withdrawal amount was deducted from my balance. FAILED_TRANSACTION
+D1758 My online booking was not confirmed due to a system error, but my card was charged. FAILED_TRANSACTION
+D1759 I got an error message during checkout, but the funds were still taken from my account. FAILED_TRANSACTION
+D1760 This transaction is marked as 'failed' in my app history, but the amount has not been returned. FAILED_TRANSACTION
+D1761 The payment was unsuccessful. Please refund the amount that was debited from my account. FAILED_TRANSACTION
+D1762 My mobile recharge failed, but the money for it was deducted. FAILED_TRANSACTION
+D1763 The money was taken, but the merchant has no record of the transaction. FAILED_TRANSACTION
+D1764 This payment is stuck in 'pending' and the beneficiary has not received it. It should be reversed. FAILED_TRANSACTION
+D1765 My NEFT transfer was rejected by the beneficiary bank, but the funds are not back in my account. FAILED_TRANSACTION
+D1766 The app crashed in the middle of the payment, but I was charged for the incomplete transaction. FAILED_TRANSACTION
+D1767 I have been debited for a transaction that never completed. Please investigate and refund. FAILED_TRANSACTION
+D1768 The payment gateway failed, but my card was charged. FAILED_TRANSACTION
+D1769 This charge is for an order that did not go through. The shopping cart is still full. FAILED_TRANSACTION
+D1770 My IMPS transaction failed but the amount has not been reversed yet. FAILED_TRANSACTION
+D1771 I was charged, but the service I paid for was not activated. FAILED_TRANSACTION
+D1772 The merchant's machine was offline, he said it wouldn't charge, but it did. FAILED_TRANSACTION
+D1773 My funds were debited, but the transfer did not go through to the recipient. FAILED_TRANSACTION
+D1774 The transaction for my insurance premium failed, but the debit is showing on my statement. FAILED_TRANSACTION
+D1775 My attempt to add money to my wallet failed, but the amount was taken from my bank. FAILED_TRANSACTION
+D1776 This transfer is lost; it left my account but never reached the other side. FAILED_TRANSACTION
+D1777 The QR code payment was unsuccessful, but I received an SMS alert for the debit. FAILED_TRANSACTION
+D1778 The movie tickets were not booked, but the transaction amount was deducted. FAILED_TRANSACTION
+D1779 This charge corresponds to an unsuccessful attempt to pay my credit card bill. FAILED_TRANSACTION
+D1780 I have a debit on my account but no confirmation or product for the purchase. FAILED_TRANSACTION
+D1781 The payment was not processed successfully, but my account balance has been reduced. FAILED_TRANSACTION
+D1782 My card payment was declined, but a hold for the amount was placed and is now posted. FAILED_TRANSACTION
+D1783 I was charged for a failed fund transfer. The money needs to be returned. FAILED_TRANSACTION
+D1784 The online form submission failed after payment. The fee was taken but the form wasn't submitted. FAILED_TRANSACTION
+D1785 The recipient's account details were invalid, the transaction should have been declined, but I was charged. FAILED_TRANSACTION
+D1786 This debit is for a payment that was rejected by the merchant's payment gateway. FAILED_TRANSACTION
+D1787 My account was charged, but the e-commerce order was automatically cancelled. FAILED_TRANSACTION
+D1788 The transaction was aborted, but the charge went through. FAILED_TRANSACTION
+D1789 My bank shows the payment was successful, the merchant shows it failed. The money is gone. FAILED_TRANSACTION
+D1790 This transaction status is 'error', but the amount has been taken from my card. FAILED_TRANSACTION
+D1791 I was debited for a transaction that timed out on the confirmation page. FAILED_TRANSACTION
+D1792 The money for this payment has been deducted, but the service is still inactive. FAILED_TRANSACTION
+D1793 This charge is for a booking that was not made due to a technical glitch. FAILED_TRANSACTION
+D1794 The money left my account, but the beneficiary did not receive it. The transaction failed. FAILED_TRANSACTION
+D1795 My FASTag was debited but the toll barrier did not open, transaction was unsuccessful. FAILED_TRANSACTION
+D1796 I'm disputing a charge for a transaction that the merchant has confirmed as failed. FAILED_TRANSACTION
+D1797 The investment was not processed, but the funds for it were taken from my account. FAILED_TRANSACTION
+D1798 I was charged, but the digital gift card was never delivered. FAILED_TRANSACTION
+D1799 The transaction shows 'reversed' but the money is not back in my available balance. FAILED_TRANSACTION
+D1800 My account was debited for a transaction that exceeded my daily limit and should have failed. FAILED_TRANSACTION
+D1801 I am disputing a debit for an unsuccessful online payment. FAILED_TRANSACTION
+D1802 The website went down during my payment, but the charge was processed. FAILED_TRANSACTION
+D1803 This is a debit for a transaction that was not completed. Please credit my account. FAILED_TRANSACTION
+D1804 The terminal had a communication error, but my card was still billed. FAILED_TRANSACTION
+D1805 My transfer to an incorrect VPA should have failed, but the money was deducted and not returned. FAILED_TRANSACTION
+D1806 The money has been taken, but the corresponding trade on the platform was not executed. FAILED_TRANSACTION
+D1807 This is a charge for a failed attempt to purchase something online. FAILED_TRANSACTION
+D1808 My account was debited, but the order confirmation was never received. FAILED_TRANSACTION
+D1809 The payment seems to be stuck in limbo. It was debited but never credited to the merchant. FAILED_TRANSACTION
+D1810 I was charged for this payment but the merchant cancelled the transaction. FAILED_TRANSACTION
+D1811 The funds have been taken but the bill is still marked as 'Payment Due'. FAILED_TRANSACTION
+D1812 This debit is for a transaction that did not succeed. Please arrange a refund. FAILED_TRANSACTION
+D1813 The merchant's system crashed, and my payment was taken for an order that was lost. FAILED_TRANSACTION
+D1814 My card was charged, but the merchant asked me to pay again because it "didn't go through". FAILED_TRANSACTION
+D1815 This amount was debited from my account but the recipient's account is closed and did not receive it. FAILED_TRANSACTION
+D1816 The transfer has been 'processing' for 4 days, which means it has failed. FAILED_TRANSACTION
+D1817 The payment was declined due to a security check, but I was still charged. FAILED_TRANSACTION
+D1818 This transaction failed but the amount is being held as a pre-authorization. FAILED_TRANSACTION
+D1819 I have a debit on my account for an order that was cancelled due to a stock error. FAILED_TRANSACTION
+D1820 The machine did not dispense the item, but I was charged for the failed vend. FAILED_TRANSACTION
+D1821 My account was charged but the subscription service failed to activate. FAILED_TRANSACTION
+D1822 I am missing money from my account for a payment that I was told had failed. FAILED_TRANSACTION
+D1823 The connection was lost, my payment failed, but the charge is on my statement. FAILED_TRANSACTION
+D1824 This charge needs to be reversed as the service was not rendered due to a system failure. FAILED_TRANSACTION
+D1825 The flight booking process failed at the last step, but my card has been debited. FAILED_TRANSACTION
+D1826 I was debited but the merchant's transaction ID was not generated for this payment. FAILED_TRANSACTION
+D1827 My payment was not successful, but the amount is no longer in my account. FAILED_TRANSACTION
+D1828 The recipient's bank account is inactive. The payment failed but was not refunded. FAILED_TRANSACTION
+D1829 The money was debited but the associated loan application was rejected. FAILED_TRANSACTION
+D1830 This transaction was supposed to have been voided but it was charged to my account. FAILED_TRANSACTION
+D1831 My account was charged but the item I was buying is still in the online shopping cart. FAILED_TRANSACTION
+D1832 The payment was unsuccessful. I require a reversal of the debited amount. FAILED_TRANSACTION
+D1833 This charge is from a failed attempt to pay a government fee online. FAILED_TRANSACTION
+D1834 My balance was deducted but the transfer is not showing for the beneficiary. FAILED_TRANSACTION
+D1835 I entered the wrong PIN, the transaction failed, but the debit appears. FAILED_TRANSACTION
+D1836 The charge is for a hotel booking that was not completed. FAILED_TRANSACTION
+D1837 I have been debited for a transaction that was flagged for review and then disappeared. FAILED_TRANSACTION
+D1838 The order was not placed due to a website error, but the payment was taken. FAILED_TRANSACTION
+D1839 The transaction shows 'rejected' but the money has not come back to my account. FAILED_TRANSACTION
+D1840 I'm disputing a debit where the credit to the intended recipient failed. FAILED_TRANSACTION
+D1841 My card was charged, but the order confirmation email stated the order had failed. FAILED_TRANSACTION
+D1842 The system took my payment but did not generate the ticket for my journey. FAILED_TRANSACTION
+D1843 This transaction failed, but my account has been charged. Please credit it back. FAILED_TRANSACTION
+D1844 I was told the payment didn't work, but it is listed on my bank statement. FAILED_TRANSACTION
+D1845 This charge is for an item that went out of stock during my checkout process. FAILED_TRANSACTION
+D1846 The payment has been taken, but the merchant's system shows my invoice as unpaid. FAILED_TRANSACTION
+D1847 My transaction was not completed, but the amount has been held from my available balance. FAILED_TRANSACTION
+D1848 The money was taken but the online service subscription did not activate. FAILED_TRANSACTION
+D1849 This debit should have been refunded automatically after the transaction was declined. FAILED_TRANSACTION
+D1850 The final step of the payment process failed, but the debit was processed successfully. FAILED_TRANSACTION
+D1851 I returned the product two weeks ago and I am still waiting for my refund. REFUND_PENDING
+D1852 The merchant cancelled my order due to a stock issue, but the refund has not been processed. REFUND_PENDING
+D1853 I was promised a refund for the terrible service, but I haven't received it yet. REFUND_PENDING
+D1854 The flight was cancelled by the airline, and I am still chasing them for the refund. REFUND_PENDING
+D1855 My return was delivered back to their warehouse 10 days ago. Where is my money? REFUND_PENDING
+D1856 The event was cancelled. The organizers said refunds would be processed, but I'm still waiting. REFUND_PENDING
+D1857 I have an email from the company confirming my refund was approved, but the money is not in my account. REFUND_PENDING
+D1858 This charge was for a security deposit that was supposed to be returned after the rental period. REFUND_PENDING
+D1859 I am following up on a pending refund for a duplicate charge I reported last month. REFUND_PENDING
+D1860 The seller acknowledged the return, but the credit has not appeared on my statement. REFUND_PENDING
+D1861 It has been over 30 days and I'm still waiting for the refund on my returned item. REFUND_PENDING
+D1862 I cancelled the subscription within the trial period, but was charged. I'm waiting for the reversal. REFUND_PENDING
+D1863 The product was defective, so I sent it back. The refund is still pending. REFUND_PENDING
+D1864 The hotel overcharged me and the manager promised to refund the difference. Still nothing. REFUND_PENDING
+D1865 My order was undeliverable and returned to the sender. I'm awaiting the credit. REFUND_PENDING
+D1866 The concert was rescheduled, and I opted for a refund. It has not been processed. REFUND_PENDING
+D1867 I'm disputing this charge as the merchant is not processing the refund for a returned item. REFUND_PENDING
+D1868 The refund status in my order history has been 'processing' for three weeks. REFUND_PENDING
+D1869 I was told the refund would take 5-7 business days. It's now been 15. REFUND_PENDING
+D1870 This charge is for a cancelled booking. The refund is long overdue. REFUND_PENDING
+D1871 The item was not as described, so I returned it. I'm still waiting to be reimbursed. REFUND_PENDING
+D1872 The company went out of business and I'm waiting for a refund on an unfulfilled order. REFUND_PENDING
+D1873 The credit for the part of my order that was out of stock has not been issued. REFUND_PENDING
+D1874 My return tracking number confirms delivery. Why hasn't the refund been initiated? REFUND_PENDING
+D1875 I'm yet to receive the refund for the faulty appliance I sent back. REFUND_PENDING
+D1876 The tour was cancelled by the operator. I am still waiting for them to return my money. REFUND_PENDING
+D1877 I have a credit note, but I requested a refund to my card, which is still pending. REFUND_PENDING
+D1878 The seller has stopped responding since I asked for the refund they promised. REFUND_PENDING
+D1879 This charge should have been reversed automatically after the service was cancelled. REFUND_PENDING
+D1880 Awaiting reimbursement for a charge that was made in error by the merchant. REFUND_PENDING
+D1881 The refund for my returned clothes is taking much longer than advertised. REFUND_PENDING
+D1882 I cancelled the order within the allowed timeframe. I am waiting for the charge to be reversed. REFUND_PENDING
+D1883 The service did not meet expectations and I was offered a refund, which I have not received. REFUND_PENDING
+D1884 My deposit for the apartment has not been returned after I moved out. REFUND_PENDING
+D1885 The company is giving me the runaround regarding my pending refund. REFUND_PENDING
+D1886 I was charged for a renewed subscription after I had cancelled it. I'm awaiting the credit. REFUND_PENDING
+D1887 The item was damaged in shipping and sent back. Still no refund. REFUND_PENDING
+D1888 The store processed my return and said the money would be back on my card. It is not. REFUND_PENDING
+D1889 This is a follow-up on an overdue refund for a cancelled pre-order. REFUND_PENDING
+D1890 The merchant agrees that I am owed a refund but says they are having system issues. REFUND_PENDING
+D1891 The refund for the wrong item delivered is still pending. REFUND_PENDING
+D1892 I refused the delivery as I had already cancelled the item. The charge has not been reversed. REFUND_PENDING
+D1893 I'm waiting for the pro-rata refund on my cancelled annual membership. REFUND_PENDING
+D1894 The hotel charged a security deposit that has not been credited back to me post-stay. REFUND_PENDING
+D1895 I have been patiently waiting for a refund for a returned gift for over a month. REFUND_PENDING
+D1896 This charge relates to an item that was recalled. I returned it and am awaiting payment. REFUND_PENDING
+D1897 The merchant has not honored their money-back guarantee. REFUND_PENDING
+D1898 My money for a cancelled grocery order has been held for too long. REFUND_PENDING
+D1899 I am still waiting for the credit promised to me as a goodwill gesture. REFUND_PENDING
+D1900 The partial refund for the service outage has not been applied to my account. REFUND_PENDING
+D1901 I returned the rental car with a full tank, but the fuel deposit has not been returned. REFUND_PENDING
+D1902 This charge was for a failed transaction and the amount has not been released back to me. REFUND_PENDING
+D1903 The seller confirmed receipt of my return. I am still waiting for the money. REFUND_PENDING
+D1904 My account was supposed to be credited after I won a dispute with the merchant. REFUND_PENDING
+D1905 The promised refund for the price adjustment has not come through. REFUND_PENDING
+D1906 I'm still chasing a refund for a trip that was cancelled due to travel restrictions. REFUND_PENDING
+D1907 The credit for the unused portion of my subscription is still pending. REFUND_PENDING
+D1908 I was told the charge was voided, but it has posted to my account and not been reversed. REFUND_PENDING
+D1909 This dispute is for a refund that has been promised but not delivered. REFUND_PENDING
+D1910 The equipment was returned on time. The company has not refunded my security deposit. REFUND_PENDING
+D1911 The course I enrolled in was cancelled. The course fee has not been refunded. REFUND_PENDING
+D1912 I have an RMA number for the return, but the refund is not processed. REFUND_PENDING
+D1913 I am yet to receive the refund for the tickets to the cancelled show. REFUND_PENDING
+D1914 The overcharged amount on my invoice has not been credited back to me yet. REFUND_PENDING
+D1915 The company's insolvency agent confirmed I was on the list for refunds. Still nothing. REFUND_PENDING
+D1916 I'm writing again to inquire about my long-pending refund. REFUND_PENDING
+D1917 The automatic refund for my cancelled order has not been triggered. REFUND_PENDING
+D1918 The seller has received the item I sent back, but is now ignoring my messages about the refund. REFUND_PENDING
+D1919 The chargeback was closed as I was told the merchant would refund me directly. They have not. REFUND_PENDING
+D1920 I am still waiting for the refund for the incorrect item that I returned. REFUND_PENDING
+D1921 My refund is taking significantly longer than the 3-5 days mentioned in their policy. REFUND_PENDING
+D1922 I cancelled my service and am expecting a final refund for the unused days. REFUND_PENDING
+D1923 The credit for the returned shoes has not been applied to my account. REFUND_PENDING
+D1924 The pre-authorization hold for a cancelled rental has not been released. REFUND_PENDING
+D1925 I'm still waiting for the money back on a returned Christmas present. REFUND_PENDING
+D1926 The tour did not go ahead. The operator needs to return my payment. REFUND_PENDING
+D1927 This charge was for an item that arrived broken and was sent back. Still waiting for my money. REFUND_PENDING
+D1928 I was told by customer service that my refund was processed last week, but it's not here. REFUND_PENDING
+D1929 The company has agreed to refund me, but has not done so yet. REFUND_PENDING
+D1930 The item did not match the description. I returned it and am expecting a full refund. REFUND_PENDING
+D1931 I am still waiting for the refund from a purchase I made with a company that is now bankrupt. REFUND_PENDING
+D1932 The refund for the double charge has not been credited to my account. REFUND_PENDING
+D1933 My order was lost in transit and I was promised a refund, which is still pending. REFUND_PENDING
+D1934 I returned the item in-store. The refund to my card has not been processed. REFUND_PENDING
+D1935 The credit for the cancelled portion of my order has not come through. REFUND_PENDING
+D1936 The contractor did not finish the job and agreed to a partial refund. I'm still waiting. REFUND_PENDING
+D1937 I have an email conversation where the merchant agrees to the refund. It's been a month. REFUND_PENDING
+D1938 I am still awaiting reimbursement for the cancelled magazine subscription. REFUND_PENDING
+D1939 The fee for the workshop that was cancelled should have been returned by now. REFUND_PENDING
+D1940 This charge should have been reversed. I am still waiting for the credit. REFUND_PENDING
+D1941 The item was sent back. The refund is what I'm waiting for now. REFUND_PENDING
+D1942 I cancelled my account and the final credit balance has not been refunded. REFUND_PENDING
+D1943 The return was accepted. The money has not been returned. REFUND_PENDING
+D1944 I am waiting for the refund on a returned item that was the wrong size. REFUND_PENDING
+D1945 My money for a failed booking has not been returned. REFUND_PENDING
+D1946 The merchant's refund system seems to have an issue. I have been waiting too long. REFUND_PENDING
+D1947 I am yet to receive the credit for the returned goods. REFUND_PENDING
+D1948 This charge is for a product that did not work. I returned it and am awaiting refund. REFUND_PENDING
+D1949 The promised refund for the poor quality meal has not been processed by the restaurant. REFUND_PENDING
+D1950 I am still waiting for a refund. It's been an unacceptably long time. REFUND_PENDING
+D1951 The amount I was charged is higher than the price listed on the shelf. OTHERS
+D1952 The product delivered is a cheap counterfeit, not the genuine article advertised. OTHERS
+D1953 I was billed for the premium subscription plan, but I only signed up for the basic one. OTHERS
+D1954 The quality of the service provided was extremely poor and not what was promised. OTHERS
+D1955 A 'service fee' was added to my final bill that was not mentioned anywhere beforehand. OTHERS
+D1956 The gym is still charging me a monthly fee even though I cancelled my membership in writing two months ago. OTHERS
+D1957 The ATM dispensed 200 less than I requested, but my account was debited for the full amount. OTHERS
+D1958 The discount coupon I applied at checkout was not reflected in the final charge. OTHERS
+D1959 The item arrived damaged, and the merchant is refusing to accept a return or offer a refund. OTHERS
+D1960 I am disputing this charge as the repair service I paid for did not fix the issue. OTHERS
+D1961 The hotel charged me for items from the minibar that I did not consume. OTHERS
+D1962 The merchant's name on my statement is 'Test Merchant', I can't identify this purchase. OTHERS
+D1963 I was charged in USD instead of CAD, which resulted in a higher cost due to conversion. OTHERS
+D1964 The final invoice from the contractor included charges for work that was never performed. OTHERS
+D1965 I'm disputing this transaction because the product I received is a completely different model. OTHERS
+D1966 The subscription price was increased without any prior notification to me. OTHERS
+D1967 I paid this bill with my other card, so this automatic payment should not have been processed. OTHERS
+D1968 The car rental company has billed me for a pre-existing scratch. OTHERS
+D1969 The item I received is missing key components and is unusable. The seller is unresponsive. OTHERS
+D1970 The tip amount that was added to my bill is incorrect and much higher than what I authorized. OTHERS
+D1971 I am being charged for an extended warranty which I explicitly declined at the time of purchase. OTHERS
+D1972 This charge is for a service contract that I have cancelled due to the provider's non-performance. OTHERS
+D1973 The food I was served was cold and I am disputing the charge for the unsatisfactory meal. OTHERS
+D1974 I am being billed for a service after my contract with the company had already ended. OTHERS
+D1975 The 'money-back guarantee' advertised on their website is not being honored. OTHERS
+D1976 I paid for express shipping, but the item arrived two weeks late. OTHERS
+D1977 The product stopped working just one week after purchase, and the merchant won't honor the warranty. OTHERS
+D1978 Can you provide more information about this transaction? The merchant description is vague. OTHERS
+D1979 The software I bought is not compatible with my operating system, contrary to the seller's claims. OTHERS
+D1980 I was charged a 'no-show' fee for a medical appointment that I did cancel and have proof of cancellation. OTHERS
+D1981 The item I received seems to be refurbished or used, but I paid for a new product. OTHERS
+D1982 The tour was a major disappointment and did not include many of the advertised attractions. OTHERS
+D1983 The amount debited from my account is different from the total on my shopping receipt. OTHERS
+D1984 The company is making it nearly impossible to cancel this subscription service. OTHERS
+D1985 I am disputing this charge because the service was not rendered in a professional manner. OTHERS
+D1986 The final cost for the car repair was double the initial written estimate without my approval. OTHERS
+D1987 This transaction should have been tax-exempt, but I was charged sales tax. OTHERS
+D1988 I am challenging this charge because the consultant I hired did not provide the agreed-upon services. OTHERS
+D1989 The digital course I purchased was low-quality and did not cover the advertised topics. OTHERS
+D1990 The merchant is refusing to provide a proper invoice for this business expense. OTHERS
+D1991 The 'lifetime access' I purchased for this service has been revoked by the company. OTHERS
+D1992 I was billed for a full year's membership when I only agreed to a one-month trial. OTHERS
+D1993 The plumber was unable to fix the leak but still charged me for the full service call. OTHERS
+D1994 This charge includes optional extras that I did not request or authorize. OTHERS
+D1995 The product I received is a different size and color from my order. OTHERS
+D1996 My loyalty points were supposed to cover the full cost of this purchase, but my card was still charged. OTHERS
+D1997 This charge is for a delivery that was left in an unsafe location and was stolen as a result. OTHERS
+D1998 I am disputing this payment due to a misrepresentation of the product's capabilities. OTHERS
+D1999 The hotel room provided was of a much lower standard than the one I booked and paid for. OTHERS
+D2000 The company did not adhere to the agreed-upon delivery schedule, causing me to incur losses. OTHERS
+D2001 I am being charged a late fee, despite having proof that my payment was made on time. OTHERS
+D2002 The furniture delivered was damaged and the company is refusing to take responsibility. OTHERS
+D2003 This charge is for an automatic renewal that I was not given adequate notice for. OTHERS
+D2004 The weight of the produce I was charged for is significantly more than what I received. OTHERS
+D2005 I am disputing this charge as the merchant has gone out of business and cannot provide the goods. OTHERS
+D2006 The 'buy one, get one free' offer was not applied at the checkout. I was charged for both items. OTHERS
+D2007 The language course was taught by a different, less qualified instructor than advertised. OTHERS
+D2008 This payment was for a contractor who abandoned the project midway through. OTHERS
+D2009 I am being billed for data overage charges that are not accurate according to my own records. OTHERS
+D2010 The company has changed its terms of service and is now charging for features that were previously free. OTHERS
+D2011 I'm disputing this transaction because the business is engaging in unethical practices. OTHERS
+D2012 The rental vehicle broke down during my trip, yet I was charged the full rental price. OTHERS
+D2013 The merchant charged my card in their local currency, not mine, without offering me a choice. OTHERS
+D2014 I received an empty package, and the seller is claiming it must have been stolen after delivery. OTHERS
+D2015 This transaction was coded under the wrong category, which affects my company's expense reporting. OTHERS
+D2016 The service was not provided on the agreed-upon date. OTHERS
+D2017 I am disputing this charge as it violates consumer protection regulations. OTHERS
+D2018 The salesperson made false promises to get me to sign up for this service. OTHERS
+D2019 The charge is for a membership that does not provide any of the advertised benefits. OTHERS
+D2020 The item is not compatible with my device, although the seller guaranteed it would be. OTHERS
+D2021 The merchant is attempting to enforce a penalty clause in the contract that is unfair. OTHERS
+D2022 I was charged for a full portion at the restaurant when I only ordered a half portion. OTHERS
+D2023 This payment was applied to the wrong account by the service provider. OTHERS
+D2024 I'm disputing this charge for a cleaning service that did a terrible job and missed several areas. OTHERS
+D2025 The 'unlimited' plan I subscribed to actually has a fair usage cap that was not disclosed. OTHERS
+D2026 The technician caused damage to my property during the service call. OTHERS
+D2027 This charge is for a deposit on a rental that I cancelled according to their policy. OTHERS
+D2028 The final bill is significantly higher than the binding quote I was given. OTHERS
+D2029 I was charged for a service call, even though the issue was a fault with their own equipment. OTHERS
+D2030 The product expired much sooner than its stated expiration date. OTHERS
+D2031 This transaction is related to a billing dispute that I have been trying to resolve for months. OTHERS
+D2032 The merchant has not provided the service I paid for and is now ignoring my communications. OTHERS
+D2033 I am disputing the authenticity of the product I received. OTHERS
+D2034 The caterer did not provide the agreed-upon number of meals for my event. OTHERS
+D2035 This charge includes a gratuity that was automatically added without my consent. OTHERS
+D2036 The 'free gift' with purchase was not included in my delivery. OTHERS
+D2037 I am being charged for a subscription on an account that I have already deleted. OTHERS
+D2038 The merchant did not have the item I paid for and gave me a less valuable substitute. OTHERS
+D2039 This charge relates to a service that failed to deliver any of the promised results. OTHERS
+D2040 I'm challenging this transaction as the merchant failed to meet their service level agreement. OTHERS
+D2041 The holiday I booked was a disaster and did not resemble the brochure. OTHERS
+D2042 I was charged a re-stocking fee for returning a defective item, which is against their policy. OTHERS
+D2043 The merchant is holding me responsible for their own system's technical error. OTHERS
+D2044 This payment was made under duress. OTHERS
+D2045 The service was not completed within the agreed timeframe. OTHERS
+D2046 I am disputing this charge due to the unprofessional and rude behavior of the staff. OTHERS
+D2047 The company is refusing to cancel a service and continues to bill me. OTHERS
+D2048 The price of the item dropped the day after I bought it, and they refused a price match. OTHERS
+D2049 This charge is for a service I was told was included in my existing plan. OTHERS
+D2050 I am disputing this bill as it contains numerous errors and overcharges. OTHERS

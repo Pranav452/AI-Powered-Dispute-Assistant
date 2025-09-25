@@ -1,0 +1,52 @@
+
+FRAUD DATASET - EXPLORATORY DATA ANALYSIS SUMMARY
+================================================
+
+Dataset Overview:
+- Total Records: 2,022
+- Total Features: 7
+- Categories: 5
+- Date Range: D1 to D2050
+
+Data Quality:
+- Missing Values: 0
+- Duplicate Records: 0
+- Data Completeness: 14.29%
+
+Category Distribution:
+category
+DUPLICATE_CHARGE      408
+FAILED_TRANSACTION    406
+REFUND_PENDING        404
+OTHERS                403
+FRAUD                 401
+
+Text Characteristics:
+- Average Description Length: 73.1 characters
+- Average Word Count: 13.2 words
+- Longest Description: 153 characters
+- Shortest Description: 33 characters
+
+Key Insights:
+1. The dataset is well-balanced across all fraud categories
+2. DUPLICATE_CHARGE is the most common category (408 cases)
+3. Average description length varies by category:
+category
+DUPLICATE_CHARGE      70.6
+FAILED_TRANSACTION    75.1
+FRAUD                 71.3
+OTHERS                74.8
+REFUND_PENDING        73.9
+
+Recommendations for Further Analysis:
+1. Text classification model development
+2. Anomaly detection for unusual patterns
+3. Temporal analysis of fraud trends
+4. Feature engineering from text descriptions
+5. Sentiment analysis of customer complaints
+
+Files Generated:
+- fraud_data.csv: Cleaned dataset
+- fraud_class_counts.csv: Category distribution summary
+- fraud_eda_visualizations.png: Comprehensive visualizations
+- fraud_wordclouds.png: Category-specific word clouds
