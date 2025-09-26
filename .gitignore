@@ -254,7 +254,6 @@ temp/
 # MACHINE LEARNING & DATA
 # ============================================================================
 # Large model files (use Git LFS for these if needed)
-*.pkl
 *.pickle
 *.joblib
 *.h5
