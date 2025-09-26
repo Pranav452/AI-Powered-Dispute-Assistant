@@ -59,25 +59,32 @@ First, navigate into the `backend` directory:
 cd backend
 ```
 
-**Create and activate a Python virtual environment:**
+Create and activate a Python virtual environment:
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-**Install the required dependencies:**
+Install the required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-**Set up your OpenAI API Key:**
-Create a file named `.env` in the `backend` directory and add your OpenAI API key:
-```
-OPENAI_API_KEY="your_openai_api_key_here"
+Set up your OpenAI API Key:
+You need to provide your OpenAI API key as an environment variable.
+
+macOS/Linux:
+```bash
+export OPENAI_API_KEY="your_openai_api_key_here"
 ```
 
-**Set up and populate the database:**
-Run the setup script. This will create the `database.db` file, set up the necessary tables, and run the full AI pipeline to populate it with initial data.
+Windows (Command Prompt):
+```bash
+set OPENAI_API_KEY="your_openai_api_key_here"
+```
+
+Set up and populate the database:
+This script creates the `database.db` file, sets up the tables, and runs the full AI pipeline to populate it with the initial data.
 ```bash
 python setup_db.py
 ```
@@ -89,28 +96,40 @@ Navigate into the `frontend` directory from the project root:
 cd frontend
 ```
 
-**Install the required npm packages:**
+Install the required npm packages:
 ```bash
 npm install
 ```
 
+### 3. Generating CSV Files for Submission
+
+The primary application uses a live database. To generate the static `classified_disputes.csv` and `resolutions.csv` files required for the submission, a special export script is provided.
+
+From the `backend` directory (with your venv active), run:
+```bash
+python export_data.py
+```
+
+This will create/update the two CSV files in the main project root directory.
+
 ## Running the Application
 
-You need to have both the backend and frontend servers running simultaneously in two separate terminals.
+You need to have both the backend and frontend servers running simultaneously.
 
 **1. Start the Backend Server:**
-In your terminal, from the `backend` directory (with the virtual environment active), run:
+In your terminal, from the `backend` directory (with the virtual environment active and API key set), run:
 ```bash
 uvicorn app:app --reload
 ```
-The backend API will be available at `http://127.0.0.1:8000`.
+The backend API will be available at http://127.0.0.1:8000.
 
 **2. Start the Frontend Server:**
 In a separate terminal, from the `frontend` directory, run:
 ```bash
 npm run dev
 ```
-The frontend application will be available at `http://localhost:3000`.
+The frontend application will be available at http://localhost:3000.
+
 
 ## How to Use the Application
 

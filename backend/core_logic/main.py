@@ -84,7 +84,7 @@ def generate_llm_explanation(description, category):
     - Predicted Category: {category}
     Explain in one clear sentence why this dispute falls into the '{category}' category, quoting key evidence from the customer's description."""
     try:
-        response = client.chat.completions.create(model="gpt-3.5-turbo", messages=[{"role": "system", "content": "You write clear, evidence-based explanations."}, {"role": "user", "content": prompt}], temperature=0.0, max_tokens=70)
+        response = client.chat.completions.create(model="gpt-4o-mini", messages=[{"role": "system", "content": "You write clear, evidence-based explanations."}, {"role": "user", "content": prompt}], temperature=0.0, max_tokens=70)
         return response.choices[0].message.content.strip()
     except Exception as e:
         print(f"Warning: OpenAI API call failed for explanation. Falling back. Error: {e}")
@@ -98,7 +98,7 @@ def generate_llm_justification(description, category, action):
     - Suggested next action: {action}
     Write a brief, one-sentence justification for the agent explaining why '{action}' is the correct next step, connecting it to the customer's complaint."""
     try:
-        response = client.chat.completions.create(model="gpt-3.5-turbo", messages=[{"role": "system", "content": "You write clear, actionable justifications for support agents."}, {"role": "user", "content": prompt}], temperature=0.1, max_tokens=80)
+        response = client.chat.completions.create(model="gpt-4o-mini", messages=[{"role": "system", "content": "You write clear, actionable justifications for support agents."}, {"role": "user", "content": prompt}], temperature=0.1, max_tokens=80)
         return response.choices[0].message.content.strip()
     except Exception as e:
         print(f"Warning: OpenAI API call failed for justification. Falling back. Error: {e}")

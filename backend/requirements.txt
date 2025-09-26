@@ -1,14 +1,27 @@
+# --- Core & Data Handling ---
 pandas
 numpy
+
+# --- ML & AI Pipeline ---
 scikit-learn
 sentence-transformers
 openai
-tqdm
+torch
+transformers
+
+# --- Web Server (API) ---
 fastapi
 uvicorn[standard]
+# pydantic is a dependency of fastapi, so it's not strictly needed here,
+# but it's good practice to list it if you use it directly.
 pydantic
-python-multipart
-dotenv
+
+# --- Conversational Agent (LangChain) ---
 langchain
-langchain_experimental
-langchain_openai
+langchain-openai
+langchain-experimental
+tabulate
+
+# --- Utilities ---
+tqdm
+python-dotenv

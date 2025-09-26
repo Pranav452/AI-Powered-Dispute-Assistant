@@ -74,7 +74,7 @@ export default function FuzzyMatcher() {
             </div>
             <div className="flex-1">
               <p className="text-sm text-gray-700 leading-relaxed">
-                This advanced tool analyzes transaction logs to identify potential duplicates using machine learning algorithms. 
+                This advanced tool analyzes transaction logs to identify potential duplicates using Fuzzy Matching. 
                 It examines customer IDs, transaction amounts, merchant information, and timing patterns within configurable time windows.
               </p>
             </div>

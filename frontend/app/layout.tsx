@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ML Oasis - Dispute Resolution Dashboard",
+  title: "ML Osfin - Dispute Resolution Dashboard",
   description: "Advanced AI-powered dispute resolution and fraud detection platform",
 };
 
@@ -36,7 +36,7 @@ export default function RootLayout({
                   <div className="h-8 w-8 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-lg flex items-center justify-center">
                     <span className="text-white font-bold text-sm">ML</span>
                   </div>
-                  <span className="ml-3 text-xl font-semibold text-gray-900">ML Oasis</span>
+                  <span className="ml-3 text-xl font-semibold text-gray-900">Osfin AI</span>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
