@@ -157,7 +157,7 @@ The frontend application will be available at http://localhost:3000.
 - **Analyze Trends**: From the dashboard, click the "View Trends" button to see a bar chart of dispute categories over time.
 - **Find Duplicates**: Click the "Tools" button from the dashboard. On this page, click "Scan for Duplicates" to run the fuzzy matching algorithm.
 - **Chat with the AI Agent**: Click the "Chat Agent" button. This will open a chat interface where you can ask questions like:
-  - "How many open cases are there?"
-  - "List all disputes with a confidence score below 80%"
-  - "What are the details for dispute D016?"
+  - “How many duplicate charges today?”
+  - “List unresolved fraud disputes”
+  - “Break down disputes by type”
 # AI-Powered-Dispute-Assistant

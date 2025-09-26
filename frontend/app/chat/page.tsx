@@ -34,11 +34,9 @@ export default function ChatPage() {
 
         {/* Quick Suggestions */}
         <QuickSuggestions suggestions={[
-          "How many fraud cases are there?",
-          "What's the trend for duplicate charges?",
-          "Show me cases with low confidence scores",
-          "Which customer has the most disputes?",
-          "What's the average resolution time?"
+          "How many duplicate charges today?",
+          "List unresolved fraud disputes",
+          "Break down disputes by type"
         ]} />
 
         {/* Chat Interface */}
