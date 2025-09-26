@@ -1,5 +1,7 @@
 # AI-Powered Dispute Resolution Assistant
 
+![ML Osfin Dashboard](dump/ML%20Osfin%20-%20Dispute%20Resolution%20Dashboard.jpeg)
+
 This project is a full-stack web application designed to help financial institutions manage and resolve customer payment disputes more efficiently. It combines a machine learning backend for intelligent dispute classification with a modern, interactive frontend built with Next.js and Tailwind CSS.
 
 The application not only categorizes incoming disputes using a sophisticated AI pipeline but also provides tools for analysis, duplicate transaction detection, and a conversational AI agent for natural language queries into the dispute data.
@@ -7,6 +9,18 @@ The application not only categorizes incoming disputes using a sophisticated AI 
 ## Project Journey & ML Pipeline
 
 This project was built from the ground up, evolving from a standalone machine learning script into a full-featured web application. The core of the application is a sophisticated AI pipeline designed to understand and categorize dispute descriptions.
+
+### Data Analysis & Visualization Journey
+
+The development process included comprehensive exploratory data analysis to understand the dispute patterns and characteristics:
+
+![Fraud Word Clouds](dump/fraud_wordclouds.png)
+
+![EDA Visualizations](dump/fraud_eda_visualizations.png)
+
+These visualizations revealed key insights about dispute categories, text patterns, and data distributions that informed the machine learning model design and feature engineering decisions.
+
+### ML Pipeline Development
 
 **1. Data Synthesis & Preparation**: The project began with the creation of a synthetic dataset of over 2,000 dispute descriptions, each manually labeled with one of five categories: `DUPLICATE_CHARGE`, `FAILED_TRANSACTION`, `FRAUD`, `REFUND_PENDING`, or `OTHERS`.
 
@@ -113,6 +127,10 @@ python export_data.py
 This will create/update the two CSV files in the main project root directory.
 
 ## Running the Application
+
+**⚠️ IMPORTANT: You must run the application to experience its full capabilities and see the AI-powered features in action!**
+
+The static images above only show a glimpse of what this application can do. To truly appreciate the intelligent dispute classification, real-time status updates, conversational AI agent, and interactive analytics, you need to run both servers and interact with the live application.
 
 You need to have both the backend and frontend servers running simultaneously.
 
